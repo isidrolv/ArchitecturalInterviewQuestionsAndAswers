@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura Empresarial",
+    "question": "¿Qué es la Arquitectura Empresarial (AE)?",
+    "options": [
+      "Una práctica de análisis, diseño, planeación e implementación que alinea la estrategia de TI con los objetivos del negocio.",
+      "Un tipo de infraestructura de red dedicada a conectar múltiples oficinas corporativas a nivel mundial.",
+      "Una metodología de desarrollo de software enfocada exclusivamente en aplicaciones de gran escala.",
+      "Un modelo de cómputo en la nube que proporciona hardware dedicado solo para grandes empresas."
+    ],
+    "answer": "a",
+    "explanation": "La Arquitectura Empresarial (AE) alinea la estrategia de TI con los objetivos del negocio. Describe el estado actual y futuro de la organización a través de dominios de negocio, datos, aplicaciones y tecnología."
+  },
+  {
+    "id": 2,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura Empresarial",
+    "question": "¿Qué significa TOGAF y cuál es su propósito principal?",
+    "options": [
+      "The Open Group Architecture Framework; es un marco para desarrollar y gestionar arquitecturas empresariales.",
+      "Technology Operations and Governance Architecture Framework; es un marco para gestionar operaciones de TI.",
+      "Total Organizational Governance and Architecture Framework; es un modelo para auditorías corporativas.",
+      "The Online Governance and Framework Architecture; es una guía para estándares de seguridad en la nube."
+    ],
+    "answer": "a",
+    "explanation": "TOGAF (The Open Group Architecture Framework) es un marco metodológico para diseñar, planear, implementar y gobernar arquitecturas empresariales de TI. Proporciona el método de desarrollo de arquitectura (ADM) como su proceso central."
+  },
+  {
+    "id": 3,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura Empresarial",
+    "question": "¿Cuáles son los cuatro dominios de la Arquitectura Empresarial según TOGAF?",
+    "options": [
+      "Negocio, Datos, Aplicaciones y Tecnología.",
+      "Estrategia, Operaciones, Infraestructura y Seguridad.",
+      "Gobierno, Riesgo, Cumplimiento y Finanzas.",
+      "Planeación, Ejecución, Monitoreo y Control."
+    ],
+    "answer": "a",
+    "explanation": "TOGAF define cuatro dominios: Arquitectura de Negocio (procesos y estrategia), Arquitectura de Datos (activos de información), Arquitectura de Aplicaciones (sistemas y sus interacciones) y Arquitectura de Tecnología (hardware, software e infraestructura)."
+  },
+  {
+    "id": 4,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura Empresarial",
+    "question": "¿Qué es el Método de Desarrollo de Arquitectura (ADM) en TOGAF?",
+    "options": [
+      "Un proceso iterativo y por fases para desarrollar y mantener una arquitectura empresarial.",
+      "Un conjunto de herramientas de software para automatizar el modelado de arquitecturas.",
+      "Una metodología ágil para el desarrollo rápido de aplicaciones empresariales.",
+      "Un estándar de certificación para arquitectos de TI a nivel internacional."
+    ],
+    "answer": "a",
+    "explanation": "El ADM es el núcleo de TOGAF; es un proceso iterativo con fases que van desde la visión de arquitectura (Fase A) hasta la gestión de cambios (Fase H), pasando por la definición de arquitecturas de negocio, datos, aplicaciones y tecnología."
+  },
+  {
+    "id": 5,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura Empresarial",
+    "question": "¿Qué es el Marco de Zachman?",
+    "options": [
+      "Un marco ontológico que organiza los artefactos de arquitectura empresarial en una matriz de perspectivas y aspectos.",
+      "Una metodología de desarrollo de software para proyectos de transformación digital.",
+      "Un estándar de ciberseguridad adoptado por el gobierno de los Estados Unidos.",
+      "Un framework de gestión de servicios de TI similar a ITIL pero orientado a startups."
+    ],
+    "answer": "a",
+    "explanation": "El Marco de Zachman es una ontología que clasifica los artefactos arquitectónicos en una matriz 6x6, donde las filas representan perspectivas (ejecutivo, gerente, arquitecto, etc.) y las columnas representan aspectos (qué, cómo, dónde, quién, cuándo, por qué)."
+  },
+  {
+    "id": 6,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Gobernanza de TI",
+    "question": "¿Qué es COBIT y para qué se utiliza?",
+    "options": [
+      "Un marco de gobernanza y gestión de TI que ayuda a las organizaciones a alcanzar sus objetivos mediante el uso efectivo de la tecnología.",
+      "Un lenguaje de programación orientado a objetos para el desarrollo de aplicaciones empresariales.",
+      "Un protocolo de comunicación segura para la transmisión de datos en redes corporativas.",
+      "Una herramienta de análisis de datos para la toma de decisiones en tiempo real."
+    ],
+    "answer": "a",
+    "explanation": "COBIT (Control Objectives for Information and Related Technologies) es un marco para la gobernanza y gestión de TI corporativa. Proporciona objetivos de control, prácticas de gestión y métricas para alinear TI con el negocio y gestionar riesgos."
+  },
+  {
+    "id": 7,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Gobernanza de TI",
+    "question": "¿Cuál es la diferencia principal entre gobernanza de TI y gestión de TI?",
+    "options": [
+      "La gobernanza define quién toma las decisiones y el marco de responsabilidades; la gestión ejecuta esas decisiones operativamente.",
+      "La gobernanza se ocupa del hardware y la gestión del software de los sistemas de información.",
+      "La gobernanza es exclusiva del CIO y la gestión corresponde a los desarrolladores de software.",
+      "La gobernanza abarca únicamente la seguridad informática, mientras que la gestión cubre el resto de TI."
+    ],
+    "answer": "a",
+    "explanation": "La gobernanza de TI establece el marco de toma de decisiones, responsabilidades y políticas para guiar el uso de TI alineado al negocio. La gestión de TI se enfoca en la planificación, construcción, ejecución y monitoreo de las actividades de TI."
+  },
+  {
+    "id": 8,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Gestión de Servicios de TI",
+    "question": "¿Qué es ITIL y cuál es su objetivo principal?",
+    "options": [
+      "Un conjunto de mejores prácticas para la gestión de servicios de TI orientadas a alinear TI con las necesidades del negocio.",
+      "Un lenguaje de modelado para el diseño de arquitecturas de red en entornos corporativos.",
+      "Una certificación de seguridad informática reconocida internacionalmente para profesionales de TI.",
+      "Un protocolo de red para la gestión de dispositivos de infraestructura de telecomunicaciones."
+    ],
+    "answer": "a",
+    "explanation": "ITIL (Information Technology Infrastructure Library) es un marco de mejores prácticas para la gestión de servicios de TI. Su objetivo es alinear los servicios de TI con las necesidades del negocio mejorando la calidad y reduciendo costos."
+  },
+  {
+    "id": 9,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Gestión de Servicios de TI",
+    "question": "¿Qué es un Acuerdo de Nivel de Servicio (SLA)?",
+    "options": [
+      "Un contrato formal entre un proveedor de servicios y el cliente que define niveles de servicio esperados, métricas y consecuencias por incumplimiento.",
+      "Un documento interno que describe el catálogo de servicios disponibles dentro de una organización.",
+      "Una metodología para priorizar incidentes de TI según su impacto en el negocio.",
+      "Un estándar de codificación para el desarrollo de APIs de servicios web."
+    ],
+    "answer": "a",
+    "explanation": "Un SLA (Service Level Agreement) es un acuerdo formal que establece métricas de desempeño como disponibilidad, tiempo de respuesta y tiempos de resolución. Define también las penalizaciones o compensaciones en caso de incumplimiento."
+  },
+  {
+    "id": 10,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Infraestructura",
+    "question": "¿Qué es la virtualización en el contexto de la infraestructura de TI?",
+    "options": [
+      "La creación de versiones virtuales de recursos físicos como servidores, almacenamiento o redes para optimizar su uso.",
+      "El proceso de migrar aplicaciones locales hacia servicios de cómputo en la nube pública.",
+      "Una técnica de compresión de datos para reducir el espacio de almacenamiento en servidores.",
+      "El diseño de interfaces gráficas de usuario para sistemas de gestión empresarial."
+    ],
+    "answer": "a",
+    "explanation": "La virtualización permite ejecutar múltiples sistemas operativos o instancias de recursos sobre un mismo hardware físico mediante un hipervisor. Mejora la utilización de recursos, reduce costos y facilita la gestión de la infraestructura."
+  },
+  {
+    "id": 11,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Cómputo en la Nube",
+    "question": "¿Cuáles son los tres modelos principales de servicio en cómputo en la nube?",
+    "options": [
+      "IaaS (Infraestructura como Servicio), PaaS (Plataforma como Servicio) y SaaS (Software como Servicio).",
+      "Public Cloud, Private Cloud y Hybrid Cloud.",
+      "DevOps, DataOps y MLOps.",
+      "On-Premise, Co-Location y Edge Computing."
+    ],
+    "answer": "a",
+    "explanation": "Los tres modelos de servicio son: IaaS (proporciona infraestructura virtualizada), PaaS (proporciona plataformas para desarrollar y desplegar aplicaciones) y SaaS (proporciona software listo para usar a través de internet)."
+  },
+  {
+    "id": 12,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Cómputo en la Nube",
+    "question": "¿Qué es una nube híbrida?",
+    "options": [
+      "Una arquitectura que combina infraestructura on-premise o nube privada con servicios de nube pública, permitiendo orquestación entre ambos entornos.",
+      "Un modelo de nube donde múltiples organizaciones comparten los mismos recursos de infraestructura.",
+      "Una nube gestionada exclusivamente por el departamento de TI interno de una organización.",
+      "Un servicio de nube que ofrece únicamente capacidades de almacenamiento y respaldo de datos."
+    ],
+    "answer": "a",
+    "explanation": "La nube híbrida combina entornos de nube pública y privada (o infraestructura on-premise), permitiendo que datos y aplicaciones se muevan entre ellos. Ofrece mayor flexibilidad, control y opciones de optimización de costos."
+  },
+  {
+    "id": 13,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Cómputo en la Nube",
+    "question": "¿Qué significa el modelo de responsabilidad compartida en la nube?",
+    "options": [
+      "El proveedor de nube gestiona la seguridad de la infraestructura y el cliente gestiona la seguridad de sus datos y aplicaciones.",
+      "El cliente y el proveedor comparten los costos de infraestructura de manera equitativa.",
+      "La responsabilidad de los SLA se divide entre el equipo de desarrollo y el equipo de operaciones.",
+      "Los proveedores de nube comparten entre sí la responsabilidad de garantizar la disponibilidad global."
+    ],
+    "answer": "a",
+    "explanation": "En el modelo de responsabilidad compartida, el proveedor de nube (como AWS, Azure o GCP) es responsable de la seguridad 'de' la nube (física, hardware, red), mientras que el cliente es responsable de la seguridad 'en' la nube (datos, identidades, configuraciones)."
+  },
+  {
+    "id": 14,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Cómputo en la Nube",
+    "question": "¿Qué es el escalado horizontal (scale-out) y en qué difiere del escalado vertical (scale-up)?",
+    "options": [
+      "El escalado horizontal agrega más instancias/nodos; el escalado vertical incrementa los recursos (CPU/RAM) de una instancia existente.",
+      "El escalado horizontal aumenta el ancho de banda de red; el vertical incrementa la capacidad de almacenamiento.",
+      "El escalado horizontal es aplicable solo en nubes privadas; el vertical es exclusivo de nubes públicas.",
+      "El escalado horizontal se aplica a bases de datos y el vertical a servidores de aplicaciones."
+    ],
+    "answer": "a",
+    "explanation": "El escalado horizontal añade más instancias para distribuir la carga (ej. más servidores web). El escalado vertical mejora el hardware de una instancia existente (más CPU, RAM). El horizontal es preferido en arquitecturas cloud-native por su mayor flexibilidad."
+  },
+  {
+    "id": 15,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Seguridad en TI",
+    "question": "¿Qué es el modelo Zero Trust en seguridad de TI?",
+    "options": [
+      "Un modelo de seguridad que asume que ninguna entidad, interna o externa, es confiable por defecto y requiere verificación continua.",
+      "Un enfoque de seguridad donde solo los usuarios externos requieren autenticación múltiple.",
+      "Una arquitectura de red donde el tráfico interno nunca es inspeccionado para evitar latencia.",
+      "Un modelo de cifrado que elimina el uso de contraseñas en favor de tokens de un solo uso."
+    ],
+    "answer": "a",
+    "explanation": "Zero Trust se basa en el principio 'nunca confiar, siempre verificar'. Requiere autenticación y autorización continua para cada acceso a recursos, independientemente de si el usuario está dentro o fuera de la red corporativa."
+  },
+  {
+    "id": 16,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Seguridad en TI",
+    "question": "¿Qué es IAM (Identity and Access Management) y por qué es importante en la arquitectura de TI?",
+    "options": [
+      "Un conjunto de políticas y tecnologías para gestionar identidades digitales y controlar el acceso a recursos de TI.",
+      "Una herramienta de monitoreo de infraestructura que rastrea el uso de recursos en la nube.",
+      "Un protocolo de red para la gestión centralizada de dispositivos de almacenamiento.",
+      "Una plataforma de análisis de logs para la detección de intrusiones en tiempo real."
+    ],
+    "answer": "a",
+    "explanation": "IAM gestiona quién puede acceder a qué recursos bajo qué condiciones. Es fundamental para implementar el principio de mínimo privilegio, garantizar el cumplimiento normativo y proteger activos críticos del negocio."
+  },
+  {
+    "id": 17,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Recuperación ante Desastres",
+    "question": "¿Qué es el RTO (Recovery Time Objective) en la planificación de continuidad del negocio?",
+    "options": [
+      "El tiempo máximo tolerable que un sistema puede estar inactivo después de un desastre antes de que el impacto sea inaceptable para el negocio.",
+      "La cantidad máxima de datos que se puede perder medida en tiempo antes de un evento de desastre.",
+      "El tiempo que tarda en ejecutarse una copia de seguridad completa de todos los sistemas críticos.",
+      "El período mínimo de retención de datos que exigen los reguladores para cumplimiento normativo."
+    ],
+    "answer": "a",
+    "explanation": "El RTO define cuánto tiempo puede estar inactivo un sistema o proceso de negocio antes de causar daños inaceptables. Es un parámetro clave para diseñar estrategias de recuperación ante desastres (DR) y garantizar la continuidad del negocio."
+  },
+  {
+    "id": 18,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Recuperación ante Desastres",
+    "question": "¿Qué es el RPO (Recovery Point Objective)?",
+    "options": [
+      "La cantidad máxima de datos que una organización puede permitirse perder, medida en tiempo, ante un evento de desastre.",
+      "El tiempo máximo que puede tardar la restauración completa de todos los sistemas de producción.",
+      "El número máximo de incidentes de seguridad permitidos antes de activar el plan de continuidad.",
+      "El porcentaje mínimo de disponibilidad garantizado en el SLA con el proveedor de nube."
+    ],
+    "answer": "a",
+    "explanation": "El RPO determina la tolerancia a la pérdida de datos. Si el RPO es de 4 horas, los respaldos deben ejecutarse al menos cada 4 horas. Junto con el RTO, guía el diseño de las estrategias de respaldo y recuperación."
+  },
+  {
+    "id": 19,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Redes",
+    "question": "¿Qué es una red definida por software (SDN)?",
+    "options": [
+      "Un enfoque de red donde el plano de control está desacoplado del plano de datos y se gestiona centralmente mediante software.",
+      "Un tipo de red privada virtual (VPN) que utiliza software de código abierto para su gestión.",
+      "Una red inalámbrica de alta velocidad diseñada para entornos de manufactura industrial.",
+      "Un protocolo de enrutamiento dinámico para redes de gran escala en centros de datos."
+    ],
+    "answer": "a",
+    "explanation": "SDN (Software-Defined Networking) separa el plano de control (decisiones de enrutamiento) del plano de datos (reenvío de paquetes), centralizando la inteligencia en un controlador de red. Permite mayor flexibilidad, automatización y programabilidad en la red."
+  },
+  {
+    "id": 20,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Datos",
+    "question": "¿Qué es un Data Lake y en qué difiere de un Data Warehouse?",
+    "options": [
+      "Un Data Lake almacena datos crudos en su formato original a gran escala; un Data Warehouse almacena datos estructurados y procesados para análisis.",
+      "Un Data Lake es una base de datos NoSQL y un Data Warehouse es una base de datos relacional.",
+      "Un Data Lake se usa exclusivamente para datos en tiempo real; un Data Warehouse para datos históricos.",
+      "Un Data Lake es un servicio de nube pública y un Data Warehouse es siempre on-premise."
+    ],
+    "answer": "a",
+    "explanation": "Un Data Lake acepta datos en cualquier formato (estructurado, semiestructurado, no estructurado) sin transformaciones previas, ideal para análisis exploratorios. Un Data Warehouse almacena datos estructurados y ya transformados optimizados para consultas analíticas (OLAP)."
+  },
+  {
+    "id": 21,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Datos",
+    "question": "¿Qué es ETL y cuál es su función en la arquitectura de datos?",
+    "options": [
+      "Extract, Transform, Load; es el proceso de extraer datos de fuentes, transformarlos y cargarlos en un destino como un Data Warehouse.",
+      "Enterprise Technology Layer; es una capa de abstracción para integrar sistemas heterogéneos.",
+      "Event-driven Transaction Logic; es un patrón para procesar transacciones en sistemas distribuidos.",
+      "Elastic Traffic Load-balancing; es una técnica de distribución de tráfico en redes de alta disponibilidad."
+    ],
+    "answer": "a",
+    "explanation": "ETL es el proceso fundamental de integración de datos: Extraer datos de múltiples fuentes heterogéneas, Transformarlos (limpieza, enriquecimiento, normalización) y Cargarlos en el destino analítico. Es la base para alimentar Data Warehouses y plataformas de BI."
+  },
+  {
+    "id": 22,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Datos",
+    "question": "¿Qué es una arquitectura de datos en tiempo real (streaming)?",
+    "options": [
+      "Una arquitectura que procesa y analiza datos continuamente conforme son generados, sin esperar a que se acumulen en lotes.",
+      "Una arquitectura que sincroniza bases de datos entre centros de datos cada pocos milisegundos.",
+      "Un patrón de replicación de bases de datos relacionales para garantizar alta disponibilidad.",
+      "Una técnica para comprimir y transmitir grandes volúmenes de datos históricos a través de la red."
+    ],
+    "answer": "a",
+    "explanation": "El procesamiento en tiempo real (streaming) analiza datos en movimiento usando plataformas como Apache Kafka o Apache Flink. Es esencial para casos de uso como detección de fraude, monitoreo de IoT y personalización en tiempo real."
+  },
+  {
+    "id": 23,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Integración de Sistemas",
+    "question": "¿Qué es un ESB (Enterprise Service Bus)?",
+    "options": [
+      "Un middleware que facilita la integración de sistemas heterogéneos mediante un bus de mensajería centralizado con capacidades de transformación y enrutamiento.",
+      "Un servidor de aplicaciones de alta disponibilidad para la ejecución de servicios empresariales críticos.",
+      "Un protocolo de comunicación para la integración de sistemas ERP con plataformas de comercio electrónico.",
+      "Una base de datos distribuida diseñada para integrar múltiples fuentes de datos en tiempo real."
+    ],
+    "answer": "a",
+    "explanation": "El ESB es un patrón de integración centralizado que actúa como intermediario entre sistemas. Proporciona enrutamiento de mensajes, transformación de datos, orquestación de servicios y manejo de protocolos. Aunque fue popular, hoy se prefieren arquitecturas más ligeras y descentralizadas."
+  },
+  {
+    "id": 24,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Integración de Sistemas",
+    "question": "¿Qué es una API (Application Programming Interface) y cuál es su rol en la arquitectura de TI?",
+    "options": [
+      "Un contrato de interfaz que define cómo los sistemas pueden comunicarse e intercambiar datos entre sí.",
+      "Un tipo de base de datos para almacenar configuraciones de aplicaciones empresariales.",
+      "Un protocolo de red para la transferencia segura de archivos entre servidores.",
+      "Un lenguaje de consulta para el acceso a bases de datos relacionales distribuidas."
+    ],
+    "answer": "a",
+    "explanation": "Una API define las reglas y contratos para la comunicación entre sistemas. En arquitectura de TI, las APIs (REST, GraphQL, SOAP, gRPC) son el mecanismo estándar para desacoplar sistemas, habilitar integraciones y exponer servicios de negocio."
+  },
+  {
+    "id": 25,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "DevOps y Entrega Continua",
+    "question": "¿Qué es CI/CD y cuál es su importancia en la arquitectura de TI moderna?",
+    "options": [
+      "Integración Continua/Despliegue Continuo; automatiza la integración, pruebas y entrega de software para reducir riesgos y acelerar ciclos de lanzamiento.",
+      "Configuration and Infrastructure as Code/Deployment; es un enfoque para gestionar infraestructura mediante código declarativo.",
+      "Continuous Inspection/Continuous Documentation; automatiza la revisión de calidad del código y la generación de documentación.",
+      "Centralized Integration/Centralized Deployment; centraliza la gestión de versiones de software en un repositorio único."
+    ],
+    "answer": "a",
+    "explanation": "CI/CD (Continuous Integration/Continuous Delivery o Deployment) automatiza el ciclo de vida del software: la integración continua valida cambios automáticamente y el despliegue continuo lleva esos cambios a producción de forma segura y frecuente."
+  },
+  {
+    "id": 26,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "DevOps y Entrega Continua",
+    "question": "¿Qué es Infrastructure as Code (IaC)?",
+    "options": [
+      "La práctica de gestionar y aprovisionar infraestructura de TI mediante archivos de configuración versionados, en lugar de procesos manuales.",
+      "Un lenguaje de programación especializado para el desarrollo de sistemas operativos y firmware.",
+      "Una técnica para convertir código de aplicación en instrucciones de bajo nivel para hardware específico.",
+      "Un estándar de documentación para describir la arquitectura de infraestructura de centros de datos."
+    ],
+    "answer": "a",
+    "explanation": "IaC permite definir infraestructura (servidores, redes, bases de datos) mediante código declarativo o imperativo (Terraform, Ansible, CloudFormation). Garantiza reproducibilidad, reduce errores manuales y permite versionar la infraestructura como código fuente."
+  },
+  {
+    "id": 27,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Contenedores y Orquestación",
+    "question": "¿Qué es Docker y cuál es su rol en la arquitectura de TI moderna?",
+    "options": [
+      "Una plataforma de contenedorización que empaqueta aplicaciones con sus dependencias para garantizar consistencia entre entornos.",
+      "Un sistema de virtualización completa de hardware para ejecutar múltiples sistemas operativos en un mismo servidor.",
+      "Un servicio de almacenamiento en la nube para imágenes de máquinas virtuales y respaldos del sistema.",
+      "Un framework de desarrollo para construir aplicaciones distribuidas en múltiples lenguajes de programación."
+    ],
+    "answer": "a",
+    "explanation": "Docker utiliza contenedores para empaquetar aplicaciones con todas sus dependencias (librerías, configuraciones, etc.), garantizando que funcionen de la misma manera en cualquier entorno. Es la base de las arquitecturas cloud-native modernas."
+  },
+  {
+    "id": 28,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Contenedores y Orquestación",
+    "question": "¿Qué es Kubernetes y para qué se utiliza?",
+    "options": [
+      "Un sistema de orquestación de contenedores que automatiza el despliegue, escalado y gestión de aplicaciones en contenedores.",
+      "Una plataforma de desarrollo de aplicaciones nativas en la nube con capacidades de aprendizaje automático integradas.",
+      "Un framework de pruebas automatizadas para validar el comportamiento de microservicios en producción.",
+      "Una herramienta de monitoreo de infraestructura que recolecta métricas de contenedores Docker."
+    ],
+    "answer": "a",
+    "explanation": "Kubernetes (K8s) orquesta contenedores a escala: gestiona despliegues, auto-escalado, auto-recuperación, descubrimiento de servicios y balanceo de carga. Se ha convertido en el estándar de facto para ejecutar aplicaciones cloud-native en producción."
+  },
+  {
+    "id": 29,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Monitoreo y Observabilidad",
+    "question": "¿Cuáles son los tres pilares de la observabilidad en sistemas distribuidos?",
+    "options": [
+      "Logs, métricas y trazas distribuidas.",
+      "Alertas, dashboards y reportes de capacidad.",
+      "Monitoreo, auditoría y gestión de eventos.",
+      "CPU, memoria y tráfico de red."
+    ],
+    "answer": "a",
+    "explanation": "Los tres pilares de la observabilidad son: Logs (registros de eventos), Métricas (datos numéricos agregados sobre el comportamiento del sistema) y Trazas distribuidas (seguimiento de solicitudes a través de múltiples servicios). Juntos permiten entender el estado interno del sistema."
+  },
+  {
+    "id": 30,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Monitoreo y Observabilidad",
+    "question": "¿Qué es el SRE (Site Reliability Engineering)?",
+    "options": [
+      "Una disciplina de ingeniería que aplica principios de software para resolver problemas de operaciones, con foco en confiabilidad y escalabilidad.",
+      "Un rol de seguridad especializado en la evaluación de vulnerabilidades de sitios web y aplicaciones.",
+      "Un framework ágil para la gestión de infraestructura de red en entornos de nube híbrida.",
+      "Un conjunto de estándares para la certificación de centros de datos a nivel de disponibilidad."
+    ],
+    "answer": "a",
+    "explanation": "SRE (originado en Google) trata las operaciones como un problema de software. Los SREs definen SLOs, SLAs, gestionan error budgets y automatizan tareas operativas para garantizar sistemas confiables y escalables, reduciendo el trabajo manual (toil)."
+  },
+  {
+    "id": 31,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Gestión de Proyectos de TI",
+    "question": "¿Qué es el enfoque Agile y cómo difiere del enfoque en cascada (Waterfall) en proyectos de TI?",
+    "options": [
+      "Agile entrega valor en iteraciones cortas con retroalimentación continua; Waterfall sigue fases secuenciales y lineales con entrega al final.",
+      "Agile utiliza documentación extensa mientras Waterfall minimiza la documentación para acelerar la entrega.",
+      "Agile es aplicable solo a proyectos de desarrollo de software y Waterfall a proyectos de infraestructura.",
+      "Agile requiere equipos distribuidos globalmente y Waterfall equipos concentrados en una sola ubicación."
+    ],
+    "answer": "a",
+    "explanation": "Agile divide el trabajo en sprints o iteraciones cortas (1-4 semanas), permite adaptarse a cambios y entrega incrementos funcionales frecuentemente. Waterfall ejecuta fases completas (análisis, diseño, desarrollo, pruebas, despliegue) de forma secuencial, siendo menos flexible ante cambios."
+  },
+  {
+    "id": 32,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Transformación Digital",
+    "question": "¿Qué es la transformación digital en el contexto empresarial?",
+    "options": [
+      "La integración de tecnología digital en todas las áreas del negocio para cambiar fundamentalmente cómo opera y entrega valor a sus clientes.",
+      "La migración completa de todos los sistemas heredados hacia plataformas de nube pública.",
+      "La digitalización de documentos físicos y procesos manuales en formatos electrónicos.",
+      "La adopción de herramientas de colaboración digital como videoconferencias y mensajería instantánea."
+    ],
+    "answer": "a",
+    "explanation": "La transformación digital va más allá de la tecnología: implica un cambio cultural y operativo profundo. Integra tecnologías como IA, cloud, IoT y analítica para rediseñar procesos, modelos de negocio y experiencias del cliente, generando nueva propuesta de valor."
+  },
+  {
+    "id": 33,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Nube",
+    "question": "¿Qué es una arquitectura multi-nube (multi-cloud)?",
+    "options": [
+      "Una estrategia que utiliza servicios de dos o más proveedores de nube pública para evitar dependencia de un solo proveedor y optimizar costos.",
+      "Una arquitectura que despliega la misma aplicación en múltiples regiones geográficas de un único proveedor.",
+      "Un modelo de nube donde todos los servicios son gestionados por un intermediario externo.",
+      "Una configuración de nube privada con múltiples clusters de servidores para alta disponibilidad."
+    ],
+    "answer": "a",
+    "explanation": "Multi-cloud usa servicios de AWS, Azure, GCP u otros simultáneamente. Evita el vendor lock-in, permite seleccionar el mejor servicio de cada proveedor y aumenta la resiliencia. El desafío es la complejidad de gestionar múltiples plataformas con sus propias herramientas y modelos de seguridad."
+  },
+  {
+    "id": 34,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Nube",
+    "question": "¿Qué es el cómputo serverless?",
+    "options": [
+      "Un modelo de ejecución donde el proveedor de nube gestiona la infraestructura dinámicamente y el desarrollador solo despliega funciones o código.",
+      "Un tipo de servidor físico dedicado sin sistema operativo que ejecuta código directamente sobre el hardware.",
+      "Una arquitectura de red donde los servidores se reemplazan por dispositivos de red programables.",
+      "Un paradigma de desarrollo donde las aplicaciones no requieren servidores backend."
+    ],
+    "answer": "a",
+    "explanation": "Serverless (como AWS Lambda o Azure Functions) abstrae completamente la infraestructura. El desarrollador despliega funciones que se ejecutan bajo demanda; el proveedor escala automáticamente, cobra solo por ejecución y gestiona disponibilidad. Ideal para cargas de trabajo irregulares."
+  },
+  {
+    "id": 35,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Seguridad en TI",
+    "question": "¿Qué es un firewall de aplicaciones web (WAF)?",
+    "options": [
+      "Un componente de seguridad que monitorea y filtra el tráfico HTTP/HTTPS para proteger aplicaciones web de ataques como SQL injection o XSS.",
+      "Un dispositivo de red para bloquear acceso no autorizado a la red corporativa interna.",
+      "Un software antivirus especializado en detectar malware en servidores de aplicaciones.",
+      "Un proxy inverso que distribuye el tráfico entre múltiples servidores web para balancear la carga."
+    ],
+    "answer": "a",
+    "explanation": "Un WAF analiza el tráfico HTTP/HTTPS y bloquea solicitudes maliciosas basándose en reglas o aprendizaje automático. Protege contra los ataques del OWASP Top 10 como inyección SQL, XSS, CSRF y otros ataques a nivel de aplicación que los firewalls de red no pueden detectar."
+  },
+  {
+    "id": 36,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Gestión de Capacidad",
+    "question": "¿Qué es la gestión de capacidad en el contexto de la arquitectura de TI?",
+    "options": [
+      "El proceso de asegurar que la capacidad de recursos de TI sea suficiente para cumplir los requisitos del negocio actual y futuro de manera rentable.",
+      "La administración del presupuesto asignado al departamento de TI para la adquisición de nuevos equipos.",
+      "La gestión del número de licencias de software disponibles en la organización.",
+      "El control de la capacidad de almacenamiento disponible en los servidores de producción."
+    ],
+    "answer": "a",
+    "explanation": "La gestión de capacidad asegura que los recursos de TI (cómputo, red, almacenamiento, aplicaciones) sean adecuados para satisfacer la demanda actual y futura. Incluye monitoreo de uso, planeación de crecimiento y optimización para evitar tanto el aprovisionamiento excesivo como la degradación del servicio."
+  },
+  {
+    "id": 37,
+    "section": "Sección 1: Arquitectura de Tecnologías de Información",
+    "category": "Arquitectura de Nube",
+    "question": "¿Qué es el patrón de arquitectura de nube nativa (cloud-native)?",
+    "options": [
+      "Un enfoque para construir aplicaciones que aprovechan al máximo los modelos de entrega de la nube, usando contenedores, microservicios, DevOps y entrega continua.",
+      "Una metodología para migrar aplicaciones monolíticas a servidores virtuales en la nube sin modificaciones.",
+      "Un estándar de certificación para proveedores de servicios de nube pública a nivel global.",
+      "Un protocolo de comunicación optimizado para redes de baja latencia en entornos de nube privada."
+    ],
+    "answer": "a",
+    "explanation": "Las aplicaciones cloud-native están diseñadas desde el inicio para aprovechar las capacidades de la nube: son resilientes, elásticas, observables y gestionables. Se basan en microservicios, contenedores (Docker/K8s), DevOps y entrega continua como pilares fundamentales."
+  },
+  {
+    "id": 38,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Microservicios",
+    "question": "¿Qué es un microservicio?",
+    "options": [
+      "Un servicio pequeño, independiente y desplegable por separado que implementa una única capacidad de negocio y se comunica mediante APIs ligeras.",
+      "Un componente de software que agrupa múltiples funcionalidades de negocio en un solo artefacto para facilitar su despliegue.",
+      "Un servicio web de pequeña escala diseñado exclusivamente para dispositivos móviles e IoT.",
+      "Una función de base de datos almacenada que encapsula lógica de negocio para su reutilización."
+    ],
+    "answer": "a",
+    "explanation": "Los microservicios son servicios pequeños, autónomos y enfocados en una sola responsabilidad de negocio. Se despliegan de forma independiente, pueden usar diferentes tecnologías y se comunican mediante APIs (REST, gRPC) o mensajería asíncrona."
+  },
+  {
+    "id": 39,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Microservicios",
+    "question": "¿Cuáles son las principales ventajas de la arquitectura de microservicios sobre la arquitectura monolítica?",
+    "options": [
+      "Despliegue independiente, escalabilidad granular, aislamiento de fallos, libertad tecnológica y equipos autónomos.",
+      "Mayor simplicidad operativa, menor latencia de red y menor complejidad de código.",
+      "Transacciones distribuidas más simples y consistencia de datos garantizada en todo momento.",
+      "Menor costo de infraestructura y más fácil depuración de errores entre servicios."
+    ],
+    "answer": "a",
+    "explanation": "Los microservicios permiten desplegar, escalar y actualizar cada servicio de forma independiente. Aíslan fallos para que no se propaguen, permiten elegir la tecnología adecuada por servicio y habilitan equipos pequeños y autónomos. La contrapartida es mayor complejidad operativa y de red."
+  },
+  {
+    "id": 40,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Microservicios",
+    "question": "¿Qué es el patrón API Gateway en arquitectura de microservicios?",
+    "options": [
+      "Un punto de entrada único para los clientes que centraliza autenticación, enrutamiento, transformación y composición de solicitudes hacia los microservicios internos.",
+      "Un servicio de base de datos compartido que centraliza el almacenamiento de todos los microservicios.",
+      "Un componente que replica automáticamente los microservicios ante fallos de infraestructura.",
+      "Un protocolo de comunicación interna entre microservicios para garantizar transacciones atómicas."
+    ],
+    "answer": "a",
+    "explanation": "El API Gateway actúa como proxy inteligente: gestiona autenticación/autorización, enrutamiento a microservicios, limitación de tasa (rate limiting), caché, transformación de protocolos y composición de respuestas. Simplifica a los clientes la interacción con docenas de microservicios."
+  },
+  {
+    "id": 41,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Microservicios",
+    "question": "¿Qué es el patrón Saga en microservicios?",
+    "options": [
+      "Un patrón para gestionar transacciones distribuidas a través de una secuencia de transacciones locales con compensaciones ante fallos.",
+      "Un patrón de caché distribuida para compartir estado entre microservicios de forma consistente.",
+      "Un patrón de descubrimiento de servicios para localizar microservicios dinámicamente en la red.",
+      "Un patrón de despliegue para actualizar microservicios sin tiempo de inactividad."
+    ],
+    "answer": "a",
+    "explanation": "Dado que los microservicios no comparten base de datos, Saga coordina transacciones distribuidas: cada servicio ejecuta una transacción local y publica un evento; si algún paso falla, se ejecutan transacciones compensatorias para deshacer los cambios anteriores."
+  },
+  {
+    "id": 42,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Microservicios",
+    "question": "¿Qué es el patrón Circuit Breaker?",
+    "options": [
+      "Un patrón de resiliencia que detecta fallos en servicios dependientes y corta el circuito temporalmente para evitar fallos en cascada.",
+      "Un patrón de seguridad para interceptar y validar todas las comunicaciones entre microservicios.",
+      "Un mecanismo para dividir grandes solicitudes en partes más pequeñas y procesarlas en paralelo.",
+      "Un patrón de base de datos para particionar tablas y distribuirlas entre múltiples nodos."
+    ],
+    "answer": "a",
+    "explanation": "El Circuit Breaker monitorea las llamadas a servicios externos. Cuando el número de fallos supera un umbral, 'abre el circuito' y rechaza solicitudes inmediatamente por un tiempo, evitando sobrecargar al servicio fallido. Después prueba si el servicio se recuperó ('medio abierto')."
+  },
+  {
+    "id": 43,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Patrones de Diseño",
+    "question": "¿Cuál es la diferencia entre un patrón de diseño y un antipatrón?",
+    "options": [
+      "Un patrón de diseño es una solución probada y reutilizable a un problema recurrente; un antipatrón es una solución común pero contraproducente.",
+      "Un patrón de diseño aplica solo a nivel de código y un antipatrón a nivel de arquitectura del sistema.",
+      "Un patrón de diseño es obligatorio seguir en proyectos empresariales; un antipatrón está prohibido por los estándares.",
+      "Un patrón de diseño es específico del lenguaje de programación y un antipatrón es universal."
+    ],
+    "answer": "a",
+    "explanation": "Los patrones de diseño (GoF) son soluciones reutilizables a problemas de diseño comunes. Los antipatrones son soluciones que parecen intuitivas pero generan problemas mayores a largo plazo (God Object, Spaghetti Code, Golden Hammer, etc.)."
+  },
+  {
+    "id": 44,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Patrones de Diseño",
+    "question": "¿Cuáles son las tres categorías de patrones de diseño según el catálogo GoF (Gang of Four)?",
+    "options": [
+      "Creacionales (cómo se crean los objetos), Estructurales (cómo se componen) y de Comportamiento (cómo interactúan).",
+      "Primarios, Secundarios y Terciarios según su nivel de abstracción y complejidad.",
+      "Arquitectónicos, de Componentes y de Datos según el nivel del sistema donde aplican.",
+      "Síncronos, Asíncronos e Híbridos según el mecanismo de comunicación que utilizan."
+    ],
+    "answer": "a",
+    "explanation": "GoF clasifica 23 patrones en: Creacionales (Singleton, Factory, Builder, Prototype, Abstract Factory), Estructurales (Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy) y de Comportamiento (Observer, Strategy, Command, Iterator, etc.)."
+  },
+  {
+    "id": 45,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Patrones de Diseño",
+    "question": "¿En qué consiste el patrón Observer?",
+    "options": [
+      "Define una dependencia uno-a-muchos donde cuando un objeto cambia su estado, todos sus dependientes son notificados automáticamente.",
+      "Permite crear objetos sin especificar la clase exacta a través de una interfaz de fábrica.",
+      "Encapsula una solicitud como objeto para parametrizar clientes con diferentes solicitudes.",
+      "Proporciona un sustituto o marcador de posición para otro objeto para controlar el acceso a él."
+    ],
+    "answer": "a",
+    "explanation": "Observer implementa el mecanismo de publicar-suscribirse. El sujeto (Subject) mantiene una lista de observadores y los notifica cuando su estado cambia. Es la base de frameworks de eventos, programación reactiva y arquitecturas orientadas a eventos."
+  },
+  {
+    "id": 46,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Patrones de Diseño",
+    "question": "¿Qué es el patrón Singleton y cuáles son sus riesgos?",
+    "options": [
+      "Garantiza que una clase tenga solo una instancia y provee un punto de acceso global; sus riesgos incluyen acoplamiento, dificultad de pruebas y problemas de concurrencia.",
+      "Permite crear familias de objetos relacionados sin especificar sus clases concretas.",
+      "Define el esqueleto de un algoritmo en una clase base dejando que las subclases implementen pasos específicos.",
+      "Convierte la interfaz de una clase en otra interfaz que los clientes esperan encontrar."
+    ],
+    "answer": "a",
+    "explanation": "Singleton asegura una única instancia global. Sus problemas: crea acoplamiento implícito, dificulta las pruebas unitarias (dependencia global), puede generar condiciones de carrera en entornos concurrentes y viola el principio de responsabilidad única al gestionar tanto su lógica como su ciclo de vida."
+  },
+  {
+    "id": 47,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura Hexagonal y Limpia",
+    "question": "¿Qué es la Arquitectura Hexagonal (Ports and Adapters)?",
+    "options": [
+      "Una arquitectura que aísla el núcleo de la aplicación del mundo exterior mediante puertos (interfaces) y adaptadores (implementaciones), facilitando pruebas y mantenimiento.",
+      "Una arquitectura de seis capas donde cada capa tiene una responsabilidad específica en el procesamiento de datos.",
+      "Un patrón de diseño para construir sistemas con seis componentes independientes y comunicación asíncrona.",
+      "Una arquitectura de base de datos que divide las tablas en seis particiones para optimizar consultas."
+    ],
+    "answer": "a",
+    "explanation": "La arquitectura hexagonal de Alistair Cockburn coloca la lógica de negocio en el centro y define puertos (interfaces abstractas) para comunicarse con el exterior. Los adaptadores implementan esos puertos para bases de datos, UI, APIs externas, etc. Facilita el testing y el intercambio de tecnologías."
+  },
+  {
+    "id": 48,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura Hexagonal y Limpia",
+    "question": "¿Qué es la Arquitectura Limpia (Clean Architecture) de Robert C. Martin?",
+    "options": [
+      "Una arquitectura en capas concéntricas donde la dependencia siempre apunta hacia el interior, protegiendo la lógica de negocio de detalles de implementación.",
+      "Un estilo arquitectónico que elimina todas las capas de abstracción para simplificar el código.",
+      "Una metodología de refactorización para eliminar código duplicado y mejorar la legibilidad.",
+      "Un patrón de arquitectura que separa la lógica de negocio en servicios independientes de bases de datos."
+    ],
+    "answer": "a",
+    "explanation": "Clean Architecture define capas concéntricas: Entidades (reglas de negocio empresarial), Casos de Uso (reglas de negocio de aplicación), Adaptadores de Interfaz y Frameworks/Drivers. La Regla de Dependencia establece que el código fuente solo puede apuntar hacia adentro."
+  },
+  {
+    "id": 49,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Principios SOLID",
+    "question": "¿Qué significa el principio de Responsabilidad Única (SRP) en SOLID?",
+    "options": [
+      "Una clase debe tener solo una razón para cambiar, es decir, debe encapsular una única responsabilidad o actor de cambio.",
+      "Cada módulo del sistema debe ser responsable de una única transacción de base de datos.",
+      "Cada microservicio debe tener un único punto de entrada para todas sus operaciones.",
+      "Un desarrollador debe ser responsable de un único módulo del sistema durante el ciclo de vida del proyecto."
+    ],
+    "answer": "a",
+    "explanation": "SRP establece que cada clase o módulo debe tener una única razón para cambiar. Esto significa que debe encapsular una sola área funcional o responder a un único actor. Clases con múltiples responsabilidades son difíciles de mantener y probar."
+  },
+  {
+    "id": 50,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Principios SOLID",
+    "question": "¿Qué establece el principio Abierto/Cerrado (OCP) de SOLID?",
+    "options": [
+      "Las entidades de software deben estar abiertas para extensión pero cerradas para modificación.",
+      "Los módulos del sistema deben abrirse para acceso público o cerrarse completamente para uso interno.",
+      "Las clases abstractas deben estar abiertas a implementaciones y cerradas a instanciación directa.",
+      "Las interfaces de API deben estar abiertas para nuevos clientes y cerradas para clientes existentes."
+    ],
+    "answer": "a",
+    "explanation": "OCP indica que se debe poder extender el comportamiento de un módulo sin modificar su código fuente. Se logra mediante abstracciones (interfaces, clases abstractas) y polimorfismo. Reduce el riesgo de introducir bugs al agregar nueva funcionalidad."
+  },
+  {
+    "id": 51,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Principios SOLID",
+    "question": "¿Qué es la Inversión de Dependencias (DIP) y cómo se implementa?",
+    "options": [
+      "Los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones. Se implementa mediante inyección de dependencias.",
+      "Las dependencias entre módulos deben invertirse en producción para facilitar el mantenimiento.",
+      "Los módulos de bajo nivel deben controlar el ciclo de vida de los módulos de alto nivel.",
+      "Las dependencias externas deben ser invertidas en el código fuente para facilitar las pruebas unitarias."
+    ],
+    "answer": "a",
+    "explanation": "DIP establece que: 1) Los módulos de alto nivel no deben depender de los de bajo nivel; ambos deben depender de abstracciones. 2) Las abstracciones no deben depender de los detalles; los detalles deben depender de las abstracciones. Se implementa con inyección de dependencias (DI)."
+  },
+  {
+    "id": 52,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Sistemas Distribuidos",
+    "question": "¿Qué establece el Teorema CAP en sistemas distribuidos?",
+    "options": [
+      "Un sistema distribuido no puede garantizar simultáneamente Consistencia, Disponibilidad y Tolerancia a Particiones; solo puede garantizar dos de las tres.",
+      "Un sistema distribuido debe implementar Control de Acceso, Autenticación y Privacidad para ser seguro.",
+      "La Capacidad, la Arquitectura y el Rendimiento de un sistema están fundamentalmente interrelacionados.",
+      "Un sistema debe cumplir con Compatibilidad, Accesibilidad y Portabilidad para ser cloud-native."
+    ],
+    "answer": "a",
+    "explanation": "El Teorema CAP de Eric Brewer establece que ante una partición de red, un sistema distribuido debe elegir entre Consistencia (todos los nodos ven los mismos datos) y Disponibilidad (todas las solicitudes reciben respuesta). Diseñar sistemas distribuidos implica entender y comunicar este compromiso."
+  },
+  {
+    "id": 53,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Sistemas Distribuidos",
+    "question": "¿Qué es la consistencia eventual (eventual consistency)?",
+    "options": [
+      "Un modelo de consistencia donde las réplicas de un dato pueden estar temporalmente desincronizadas pero eventualmente convergen al mismo valor.",
+      "Un contrato de SLA que garantiza que todos los datos serán consistentes eventualmente al final del día.",
+      "Una técnica de validación de datos que verifica la integridad referencial al final de cada transacción.",
+      "Un modelo de transacciones donde la consistencia se garantiza solo después de confirmar todos los participantes."
+    ],
+    "answer": "a",
+    "explanation": "La consistencia eventual es un modelo usado por sistemas AP (según CAP). Las actualizaciones se propagan gradualmente y puede haber un período donde distintos nodos devuelvan valores diferentes. Sistemas como DynamoDB, Cassandra y DNS usan este modelo para maximizar disponibilidad."
+  },
+  {
+    "id": 54,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Sistemas Distribuidos",
+    "question": "¿Qué es el patrón CQRS (Command Query Responsibility Segregation)?",
+    "options": [
+      "Un patrón que separa las operaciones de escritura (comandos) de las de lectura (consultas) en modelos de datos distintos para optimizar cada uno independientemente.",
+      "Un patrón de control de versiones para APIs que separa los comandos de administración de las consultas de usuario.",
+      "Una arquitectura de base de datos que separa las transacciones OLTP de las consultas OLAP en servidores distintos.",
+      "Un patrón de seguridad que separa los permisos de escritura de los de lectura para distintos roles de usuario."
+    ],
+    "answer": "a",
+    "explanation": "CQRS usa modelos separados para escrituras y lecturas. El modelo de comando gestiona mutaciones del estado con validaciones de negocio complejas. El modelo de consulta está optimizado para lectura eficiente. Combina bien con Event Sourcing y permite escalar lectura/escritura independientemente."
+  },
+  {
+    "id": 55,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Sistemas Distribuidos",
+    "question": "¿Qué es Event Sourcing?",
+    "options": [
+      "Un patrón donde el estado del sistema se deriva de una secuencia inmutable de eventos almacenados, en lugar de almacenar el estado actual.",
+      "Un mecanismo de suscripción a fuentes de datos externas para recibir actualizaciones en tiempo real.",
+      "Un patrón de integración que enruta eventos de negocio entre sistemas heterogéneos mediante un bus central.",
+      "Una técnica para generar automáticamente código fuente a partir de eventos de auditoría del sistema."
+    ],
+    "answer": "a",
+    "explanation": "En Event Sourcing, en lugar de guardar el estado actual, se almacena el historial completo de eventos que llevaron a ese estado. Permite reconstruir cualquier estado pasado, facilita auditoría, debugging y es la base natural para arquitecturas orientadas a eventos y CQRS."
+  },
+  {
+    "id": 56,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura Orientada a Eventos",
+    "question": "¿Qué es una arquitectura orientada a eventos (EDA)?",
+    "options": [
+      "Un paradigma de arquitectura donde los componentes se comunican mediante la producción, detección y consumo de eventos de forma asíncrona y desacoplada.",
+      "Una arquitectura donde todos los servicios deben responder a los eventos en un tiempo máximo garantizado.",
+      "Un modelo de programación donde la interfaz de usuario reacciona a eventos del usuario en tiempo real.",
+      "Una arquitectura de base de datos que registra todos los cambios de datos como eventos de auditoría."
+    ],
+    "answer": "a",
+    "explanation": "EDA desacopla productores y consumidores de eventos. Los productores emiten eventos sin conocer quién los consumirá. Los consumidores reaccionan de forma asíncrona. Plataformas como Apache Kafka, RabbitMQ y AWS EventBridge implementan este patrón. Mejora escalabilidad y resiliencia."
+  },
+  {
+    "id": 57,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura de Capas",
+    "question": "¿Qué es la arquitectura en capas (N-Tier) y cuáles son sus capas típicas?",
+    "options": [
+      "Una arquitectura que organiza el sistema en capas con responsabilidades distintas: Presentación, Lógica de Negocio, Acceso a Datos y Base de Datos.",
+      "Una arquitectura que divide la aplicación en capas de seguridad, red, cómputo y almacenamiento.",
+      "Un modelo de arquitectura de red con capas física, enlace, red, transporte y aplicación.",
+      "Una arquitectura de procesamiento que divide los cálculos entre CPU, caché y memoria principal."
+    ],
+    "answer": "a",
+    "explanation": "La arquitectura N-Tier es el patrón más común para aplicaciones empresariales. Separa responsabilidades: la capa de presentación gestiona la UI, la de negocio las reglas y procesos, y la de datos el acceso a persistencia. Permite cambiar cada capa sin afectar las otras."
+  },
+  {
+    "id": 58,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Escalabilidad y Rendimiento",
+    "question": "¿Qué es el sharding de bases de datos?",
+    "options": [
+      "Una técnica de particionamiento horizontal que divide los datos entre múltiples instancias de base de datos para distribuir la carga y escalar horizontalmente.",
+      "Una técnica de compresión de datos para reducir el espacio de almacenamiento en bases de datos relacionales.",
+      "Un mecanismo de replicación que sincroniza datos entre bases de datos primaria y secundaria.",
+      "Una estrategia de indexación para acelerar las consultas en tablas con grandes volúmenes de datos."
+    ],
+    "answer": "a",
+    "explanation": "El sharding divide los datos en subconjuntos (shards) distribuidos en múltiples servidores. Cada shard contiene una porción de los datos según una clave de partición. Permite escalar más allá de las limitaciones de un solo servidor, aunque añade complejidad en las consultas que cruzan shards."
+  },
+  {
+    "id": 59,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Escalabilidad y Rendimiento",
+    "question": "¿Qué es el caché y cuáles son sus estrategias principales de invalidación?",
+    "options": [
+      "Almacenamiento temporal de datos frecuentemente accedidos para reducir latencia; sus estrategias incluyen TTL (expiración), write-through, write-behind y cache-aside.",
+      "Un mecanismo de compresión de datos en memoria para reducir el uso de RAM en servidores de alta disponibilidad.",
+      "Una base de datos en memoria diseñada para almacenar únicamente datos de configuración de aplicaciones.",
+      "Un protocolo de red para acelerar la transferencia de datos entre servidores en una misma región geográfica."
+    ],
+    "answer": "a",
+    "explanation": "El caché almacena datos costosos de calcular o consultar. Las estrategias de invalidación incluyen: TTL (expira después de un tiempo), Write-Through (actualiza caché y DB simultáneamente), Write-Behind (actualiza DB asíncronamente) y Cache-Aside (la app gestiona el caché manualmente)."
+  },
+  {
+    "id": 60,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Escalabilidad y Rendimiento",
+    "question": "¿Qué es el balanceo de carga (load balancing) y cuáles son sus algoritmos más comunes?",
+    "options": [
+      "La distribución de tráfico entre múltiples servidores; los algoritmos incluyen Round Robin, Least Connections, IP Hash y Weighted Round Robin.",
+      "La gestión del ancho de banda de red para priorizar el tráfico de aplicaciones críticas del negocio.",
+      "La distribución equitativa de tareas entre múltiples threads dentro de un mismo proceso de servidor.",
+      "Un mecanismo de compresión que reduce el tamaño de los paquetes de red para mejorar el rendimiento."
+    ],
+    "answer": "a",
+    "explanation": "El balanceo de carga distribuye solicitudes entre múltiples instancias para evitar sobrecargar un nodo. Round Robin distribuye secuencialmente, Least Connections envía al servidor menos ocupado, IP Hash garantiza que el mismo cliente va al mismo servidor (sticky sessions) y Weighted prioriza servidores más potentes."
+  },
+  {
+    "id": 61,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Domain-Driven Design",
+    "question": "¿Qué es el Diseño Orientado al Dominio (DDD) y cuáles son sus conceptos fundamentales?",
+    "options": [
+      "Un enfoque de diseño de software centrado en el dominio del negocio; sus conceptos clave son Ubiquitous Language, Bounded Contexts, Aggregates y Domain Events.",
+      "Una metodología de desarrollo ágil que prioriza el modelado de bases de datos sobre la lógica de aplicación.",
+      "Un estilo de arquitectura que divide los sistemas en dominios de seguridad con acceso controlado.",
+      "Un framework de diseño para crear APIs REST organizadas por dominios de negocio independientes."
+    ],
+    "answer": "a",
+    "explanation": "DDD (Eric Evans) pone el modelo de dominio en el centro del diseño. Conceptos clave: Ubiquitous Language (lenguaje compartido entre negocio y técnicos), Bounded Contexts (límites explícitos del modelo), Aggregates (grupos de entidades con raíz), Value Objects y Domain Events."
+  },
+  {
+    "id": 62,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Domain-Driven Design",
+    "question": "¿Qué es un Bounded Context en DDD?",
+    "options": [
+      "Un límite explícito dentro del cual un modelo de dominio particular es coherente y consistente, con su propio lenguaje ubicuo.",
+      "Una restricción de acceso que delimita qué equipos pueden modificar un determinado módulo del sistema.",
+      "Un contexto de seguridad que delimita los recursos accesibles para cada rol de usuario del sistema.",
+      "Un alcance de transacción que delimita las operaciones atómicas en una base de datos distribuida."
+    ],
+    "answer": "a",
+    "explanation": "Un Bounded Context define los límites dentro de los cuales un modelo de dominio específico tiene un significado claro y consistente. El mismo término puede significar cosas distintas en diferentes contextos (ej. 'Cliente' en ventas vs. soporte). Los contextos se integran mediante Context Maps."
+  },
+  {
+    "id": 63,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Domain-Driven Design",
+    "question": "¿Qué es un Aggregate en DDD?",
+    "options": [
+      "Un clúster de objetos de dominio (entidades y value objects) que se tratan como una unidad para cambios de datos, con una entidad raíz que controla el acceso.",
+      "Una función de base de datos que agrega y resume datos de múltiples tablas del dominio.",
+      "Un componente de integración que agrega eventos de múltiples dominios en un único flujo.",
+      "Una clase utilitaria que combina múltiples servicios de dominio en una fachada unificada."
+    ],
+    "answer": "a",
+    "explanation": "Un Aggregate agrupa entidades relacionadas bajo una Aggregate Root, que es la única entidad accesible desde fuera. Toda modificación al aggregate pasa por la raíz, garantizando invariantes del dominio. Cada aggregate es una unidad de consistencia transaccional."
+  },
+  {
+    "id": 64,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura de Software",
+    "question": "¿Qué es la arquitectura monolítica y cuáles son sus ventajas e inconvenientes?",
+    "options": [
+      "Una aplicación desplegada como una sola unidad; ventajas: simplicidad inicial y debugging sencillo; desventajas: escalabilidad limitada y despliegues riesgosos a gran escala.",
+      "Una arquitectura que utiliza un único servidor central para procesar todas las solicitudes.",
+      "Un patrón de base de datos donde todas las tablas se almacenan en un único esquema.",
+      "Un enfoque de desarrollo donde un único equipo es responsable de todo el sistema."
+    ],
+    "answer": "a",
+    "explanation": "En un monolito, todos los módulos se compilan y despliegan juntos. Ventajas: desarrollo inicial sencillo, debugging directo, sin latencia de red interna. Desventajas: a escala, el código se vuelve complejo, cualquier cambio requiere redesplegar todo y escalar implica escalar toda la aplicación."
+  },
+  {
+    "id": 65,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura de Software",
+    "question": "¿Qué es SOA (Service-Oriented Architecture)?",
+    "options": [
+      "Un estilo de arquitectura donde las funcionalidades del negocio se exponen como servicios interoperables que se comunican mediante protocolos estándar.",
+      "Una metodología de desarrollo centrada en el diseño de servicios web RESTful para aplicaciones móviles.",
+      "Un framework de gestión de servicios de TI basado en ITIL para entornos de nube privada.",
+      "Un protocolo de comunicación para integrar sistemas ERP con sistemas de gestión de clientes."
+    ],
+    "answer": "a",
+    "explanation": "SOA organiza el software como servicios reutilizables y con bajo acoplamiento que se comunican mediante interfaces estandarizadas (tipicamente SOAP/XML). A diferencia de los microservicios, los servicios SOA suelen ser más grandes, se orquestan via ESB y comparten más infraestructura."
+  },
+  {
+    "id": 66,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Calidad de Software",
+    "question": "¿Cuáles son los atributos de calidad más importantes en la arquitectura de software?",
+    "options": [
+      "Disponibilidad, rendimiento, escalabilidad, seguridad, mantenibilidad, fiabilidad, usabilidad y testeabilidad.",
+      "Costo, velocidad de desarrollo, número de líneas de código y porcentaje de cobertura de pruebas.",
+      "Lenguaje de programación, framework utilizado, número de desarrolladores y fecha de entrega.",
+      "Cantidad de APIs expuestas, número de bases de datos y volumen de transacciones por hora."
+    ],
+    "answer": "a",
+    "explanation": "Los atributos de calidad (también llamados requisitos no funcionales o '-ilities') definen qué tan bien hace el sistema lo que hace. Son la base de las decisiones arquitectónicas y se documentan mediante escenarios de calidad. Los trade-offs entre ellos son el núcleo del trabajo del arquitecto."
+  },
+  {
+    "id": 67,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Pruebas de Software",
+    "question": "¿Qué es la pirámide de pruebas en el contexto de arquitectura de software?",
+    "options": [
+      "Un modelo que sugiere tener muchas pruebas unitarias en la base, menos pruebas de integración en el medio y pocas pruebas end-to-end en la cima.",
+      "Un modelo de madurez para evaluar el nivel de automatización de pruebas en una organización.",
+      "Una estrategia de pruebas de carga que incrementa gradualmente el volumen hasta encontrar el punto de quiebre.",
+      "Una clasificación de errores por severidad desde críticos (base) hasta cosméticos (cima)."
+    ],
+    "answer": "a",
+    "explanation": "La pirámide de pruebas de Mike Cohn propone: muchas pruebas unitarias (rápidas, baratas, aisladas), algunas pruebas de integración (verifican la colaboración entre componentes) y pocas pruebas E2E (lentas, costosas pero verifican flujos completos). Maximiza retroalimentación rápida."
+  },
+  {
+    "id": 68,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Deuda Técnica",
+    "question": "¿Qué es la deuda técnica y cómo impacta en la arquitectura de software?",
+    "options": [
+      "El costo implícito de retrabajos futuros causados por elegir soluciones fáciles ahora en lugar de mejores enfoques; deteriora la arquitectura acumulando complejidad accidental.",
+      "El presupuesto asignado para la actualización de tecnologías obsoletas en los sistemas de producción.",
+      "El tiempo extra invertido por los desarrolladores en documentar decisiones de arquitectura.",
+      "Los costos de licenciamiento de software que se aplazan para futuros ciclos presupuestales."
+    ],
+    "answer": "a",
+    "explanation": "La deuda técnica (término de Ward Cunningham) es como una deuda financiera: atajos tomados ahora (código mal estructurado, decisiones apresuradas) generan 'intereses' en forma de mayor tiempo y costo para añadir funcionalidades. Se acumula en la arquitectura deteriorando su mantenibilidad."
+  },
+  {
+    "id": 69,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura de Software",
+    "question": "¿Qué son las decisiones de arquitectura (ADRs) y por qué son importantes?",
+    "options": [
+      "Registros documentados de decisiones de arquitectura significativas, incluyendo el contexto, las opciones consideradas y las consecuencias; preservan el razonamiento para el futuro.",
+      "Los requerimientos formales aprobados por el cliente que definen la arquitectura del sistema.",
+      "Un sistema de control de versiones para los diagramas de arquitectura del software.",
+      "Evaluaciones de riesgo técnico realizadas por el equipo de arquitectura antes de cada sprint."
+    ],
+    "answer": "a",
+    "explanation": "Los ADRs (Architecture Decision Records) documentan por qué se tomó una decisión arquitectónica importante: el contexto, las alternativas evaluadas, la decisión tomada y sus consecuencias. Son vitales para preservar el conocimiento arquitectónico cuando el equipo cambia."
+  },
+  {
+    "id": 70,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Resiliencia",
+    "question": "¿Qué es el patrón Bulkhead en sistemas distribuidos?",
+    "options": [
+      "Un patrón de aislamiento que divide los recursos del sistema en compartimentos para que un fallo en un área no afecte a las demás.",
+      "Un patrón de seguridad que crea zonas desmilitarizadas (DMZ) entre capas del sistema.",
+      "Un mecanismo de particionamiento de bases de datos para aislar datos sensibles del resto.",
+      "Un patrón de despliegue que divide la actualización en grupos pequeños para reducir el riesgo."
+    ],
+    "answer": "a",
+    "explanation": "Inspirado en los compartimentos estancos de los barcos, el patrón Bulkhead aísla elementos del sistema en grupos para limitar el impacto de los fallos. Por ejemplo, asignando pools de threads separados a distintos servicios dependientes, evitando que un servicio lento agote los recursos globales."
+  },
+  {
+    "id": 71,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Resiliencia",
+    "question": "¿Qué es el patrón Retry con backoff exponencial?",
+    "options": [
+      "Un patrón que reintenta automáticamente operaciones fallidas, incrementando exponencialmente el tiempo de espera entre intentos para evitar sobrecargar al servicio fallido.",
+      "Un algoritmo de compresión que aplica reintentos de codificación para reducir el tamaño de datos.",
+      "Un patrón de despliegue que reintenta el despliegue con configuraciones más conservadoras ante fallos.",
+      "Un mecanismo de recuperación de base de datos que reintenta transacciones fallidas en orden inverso."
+    ],
+    "answer": "a",
+    "explanation": "El patrón Retry con backoff exponencial reintenta llamadas fallidas esperando intervalos que crecen exponencialmente (1s, 2s, 4s, 8s...) con jitter aleatorio para evitar thundering herd. Se combina con Circuit Breaker para no reintentar indefinidamente ante fallos persistentes."
+  },
+  {
+    "id": 72,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura de Software",
+    "question": "¿Qué es el principio DRY (Don't Repeat Yourself)?",
+    "options": [
+      "Cada pieza de conocimiento o lógica debe tener una representación única, no ambigua y autoritativa en el sistema.",
+      "Las bases de datos no deben contener datos duplicados en ninguna tabla del sistema.",
+      "Los desarrolladores no deben repetir los mismos errores en diferentes módulos del sistema.",
+      "Los servicios no deben realizar las mismas llamadas de red más de una vez por sesión de usuario."
+    ],
+    "answer": "a",
+    "explanation": "DRY (Hunt y Thomas, The Pragmatic Programmer) establece que la duplicación de lógica genera problemas de mantenimiento: al cambiar el comportamiento, debes actualizar múltiples lugares, aumentando el riesgo de inconsistencias. La abstracción y la reutilización son la solución."
+  },
+  {
+    "id": 73,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Comunicación en Sistemas Distribuidos",
+    "question": "¿Cuál es la diferencia entre comunicación síncrona y asíncrona en microservicios?",
+    "options": [
+      "En síncrona el solicitante espera la respuesta antes de continuar (REST, gRPC); en asíncrona el solicitante continúa sin esperar y el resultado llega mediante mensajería o eventos.",
+      "En síncrona ambos servicios se actualizan simultáneamente; en asíncrona uno se actualiza antes que el otro.",
+      "En síncrona se usan protocolos binarios y en asíncrona protocolos de texto plano.",
+      "En síncrona la comunicación ocurre en el mismo hilo de ejecución; en asíncrona usa hilos separados siempre."
+    ],
+    "answer": "a",
+    "explanation": "La comunicación síncrona (REST/HTTP, gRPC) bloquea al solicitante hasta recibir respuesta, creando acoplamiento temporal. La asíncrona (Kafka, RabbitMQ) desacopla temporal y espacialmente los servicios. La asíncrona mejora resiliencia y escalabilidad pero añade complejidad en la gestión de consistencia."
+  },
+  {
+    "id": 74,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Comunicación en Sistemas Distribuidos",
+    "question": "¿Qué es gRPC y en qué casos se prefiere sobre REST?",
+    "options": [
+      "Un framework RPC de alto rendimiento que usa Protocol Buffers para serialización binaria; se prefiere para comunicación interna entre microservicios por menor latencia y mayor eficiencia.",
+      "Un protocolo de red para la comunicación entre bases de datos distribuidas en entornos multi-nube.",
+      "Un estándar de autenticación para APIs internas basado en certificados digitales mutuo.",
+      "Un framework de pruebas de rendimiento para validar la capacidad de respuesta de APIs REST."
+    ],
+    "answer": "a",
+    "explanation": "gRPC usa HTTP/2 y Protocol Buffers (serialización binaria eficiente), resultando en menor latencia y menor tamaño de mensaje que REST/JSON. Soporta streaming bidireccional. Es ideal para comunicación sincrónica entre microservicios donde el rendimiento es crítico."
+  },
+  {
+    "id": 75,
+    "section": "Sección 2: Arquitectura de Software",
+    "category": "Arquitectura de Software",
+    "question": "¿Qué es el principio de separación de incumbencias (Separation of Concerns)?",
+    "options": [
+      "Un principio de diseño que establece que cada módulo o componente debe encargarse de una única preocupación o responsabilidad, facilitando la mantenibilidad y comprensión del sistema.",
+      "Un principio de seguridad que separa los datos sensibles del negocio de los datos públicos del sistema.",
+      "Una metodología organizacional para separar los equipos de desarrollo de los de operaciones.",
+      "Un estándar de gestión de proyectos que divide las preocupaciones del cliente de las técnicas del equipo."
+    ],
+    "answer": "a",
+    "explanation": "Separation of Concerns (Dijkstra) establece que los aspectos del sistema deben estar claramente separados para que los cambios en un aspecto no afecten a los demás. Es la base de la arquitectura en capas, los microservicios, y muchos patrones de diseño. Reduce el acoplamiento y aumenta la cohesión."
+  }
+]

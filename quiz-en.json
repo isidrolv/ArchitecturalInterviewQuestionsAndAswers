@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "section": "Section 1: IT Architecture",
+    "category": "Enterprise Architecture",
+    "question": "What is Enterprise Architecture (EA)?",
+    "options": [
+      "A practice of analyzing, designing, planning, and implementing enterprise analysis to successfully execute on business strategies.",
+      "A type of network infrastructure dedicated to connecting multiple enterprise offices worldwide.",
+      "A software development methodology primarily focused on large-scale enterprise applications.",
+      "A cloud computing model that provides dedicated hardware resources exclusively for large enterprises."
+    ],
+    "answer": "a",
+    "explanation": "Enterprise Architecture (EA) is a practice that aligns IT strategy with business goals. It describes the current and future state of the organization across business, data, application, and technology domains."
+  },
+  {
+    "id": 2,
+    "section": "Section 1: IT Architecture",
+    "category": "Enterprise Architecture",
+    "question": "What does TOGAF stand for and what is its primary purpose?",
+    "options": [
+      "Technical Operations and Governance Architecture Framework; a tool for managing IT operations.",
+      "The Open Group Architecture Framework; an enterprise architecture methodology used to design, plan, implement, and govern enterprise IT architectures.",
+      "Total Organizational Governance and Architecture Functions; a financial governance standard for IT departments.",
+      "Technology-Oriented Growth and Agility Framework; an Agile methodology for large-scale software projects."
+    ],
+    "answer": "b",
+    "explanation": "TOGAF (The Open Group Architecture Framework) is one of the most widely adopted enterprise architecture frameworks. It provides a comprehensive approach and set of tools for designing, planning, implementing, and governing an enterprise information architecture."
+  },
+  {
+    "id": 3,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is the primary purpose of a DMZ (Demilitarized Zone) in network architecture?",
+    "options": [
+      "To provide a high-speed internal network segment for critical databases.",
+      "To act as a secure buffer zone between the public internet and the private internal network, hosting public-facing services.",
+      "To isolate developer machines from the production environment.",
+      "To create a dedicated VLAN for management traffic between network devices."
+    ],
+    "answer": "b",
+    "explanation": "A DMZ is a physical or logical subnetwork that sits between the public internet and the internal private network. It hosts public-facing services (web servers, email servers) so that if they are compromised, the attacker does not gain direct access to the internal network."
+  },
+  {
+    "id": 4,
+    "section": "Section 1: IT Architecture",
+    "category": "Cloud Computing",
+    "question": "What is the key difference between IaaS, PaaS, and SaaS cloud service models?",
+    "options": [
+      "They differ only in pricing; IaaS is cheapest, PaaS is mid-range, and SaaS is most expensive.",
+      "IaaS provides virtualized computing infrastructure; PaaS provides a platform for application development; SaaS provides ready-to-use software applications over the internet.",
+      "IaaS is for internal use, PaaS is for partners, and SaaS is for end customers.",
+      "They are identical models but offered by different cloud providers (AWS, Azure, GCP)."
+    ],
+    "answer": "b",
+    "explanation": "IaaS (Infrastructure as a Service) offers virtualized hardware resources. PaaS (Platform as a Service) provides a managed platform for building and deploying applications without managing the underlying infrastructure. SaaS (Software as a Service) delivers fully managed software accessed via a browser or API."
+  },
+  {
+    "id": 5,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is a VPN (Virtual Private Network) and what problem does it solve?",
+    "options": [
+      "A dedicated hardware device that accelerates network traffic between data centers.",
+      "A technology that creates an encrypted, secure tunnel over a public network to allow private communication between endpoints.",
+      "A software-defined networking solution that replaces traditional routers and switches.",
+      "A network monitoring tool that detects intrusions and anomalies in real time."
+    ],
+    "answer": "b",
+    "explanation": "A VPN creates an encrypted tunnel over a public network (typically the internet), allowing users or sites to communicate securely as if they were on a private network. It solves the problem of secure remote access and site-to-site connectivity without dedicated leased lines."
+  },
+  {
+    "id": 6,
+    "section": "Section 1: IT Architecture",
+    "category": "Infrastructure",
+    "question": "What is load balancing and why is it important in IT architecture?",
+    "options": [
+      "A technique to compress network traffic in order to reduce bandwidth consumption.",
+      "The process of distributing incoming network traffic across multiple servers to ensure no single server is overwhelmed, improving availability and responsiveness.",
+      "A backup strategy that spreads data copies across multiple storage devices.",
+      "A capacity planning method used to forecast server procurement needs."
+    ],
+    "answer": "b",
+    "explanation": "Load balancing distributes client requests evenly across a pool of servers. This prevents any single server from becoming a bottleneck, increases fault tolerance (traffic is rerouted if a server fails), and improves overall throughput and response times."
+  },
+  {
+    "id": 7,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is a Content Delivery Network (CDN) and what is its main benefit?",
+    "options": [
+      "A private network used by content creators to upload media files to a central server.",
+      "A geographically distributed network of proxy servers and data centers that serves content to users from the closest location, reducing latency.",
+      "A dedicated fiber network connecting major internet exchange points around the world.",
+      "A cloud storage service that encrypts and distributes backups across multiple regions."
+    ],
+    "answer": "b",
+    "explanation": "A CDN caches content (images, videos, scripts) at edge nodes close to end users. When a user requests content, it is served from the nearest edge node rather than the origin server, significantly reducing latency and improving load times while also offloading traffic from the origin."
+  },
+  {
+    "id": 8,
+    "section": "Section 1: IT Architecture",
+    "category": "Storage Architecture",
+    "question": "What does RAID stand for and what is its primary purpose?",
+    "options": [
+      "Redundant Array of Independent Disks; a storage technology that combines multiple physical drives to provide redundancy, improve performance, or both.",
+      "Remote Access and Integrated Drives; a network storage protocol for connecting remote disk arrays.",
+      "Replicated Automated Infrastructure Design; a disaster recovery framework for storage systems.",
+      "Resilient Array of Internet Drives; a cloud-based distributed file storage standard."
+    ],
+    "answer": "a",
+    "explanation": "RAID (Redundant Array of Independent Disks) uses multiple physical disks together. Different RAID levels offer varying trade-offs: RAID 0 stripes data for performance, RAID 1 mirrors data for redundancy, RAID 5 uses distributed parity for both performance and fault tolerance, etc."
+  },
+  {
+    "id": 9,
+    "section": "Section 1: IT Architecture",
+    "category": "Virtualization",
+    "question": "What is a hypervisor and what role does it play in virtualization?",
+    "options": [
+      "A high-performance network switch that creates isolated virtual LANs.",
+      "Software that creates and manages virtual machines by abstracting and allocating physical hardware resources to multiple guest operating systems.",
+      "A container runtime that isolates application processes using Linux namespaces.",
+      "A firmware component that manages CPU power states and thermal throttling."
+    ],
+    "answer": "b",
+    "explanation": "A hypervisor (also called a Virtual Machine Monitor) sits between the hardware and the guest operating systems. It virtualizes the physical hardware so multiple VMs can share the same physical server, each believing it has dedicated resources, enabling efficient hardware utilization."
+  },
+  {
+    "id": 10,
+    "section": "Section 1: IT Architecture",
+    "category": "Virtualization",
+    "question": "What is the difference between a Type 1 and a Type 2 hypervisor?",
+    "options": [
+      "Type 1 runs directly on bare metal hardware; Type 2 runs on top of a host operating system.",
+      "Type 1 supports only Windows guests; Type 2 supports only Linux guests.",
+      "Type 1 is used for development environments; Type 2 is used for production workloads.",
+      "Type 1 hypervisors are software-based; Type 2 hypervisors are implemented in hardware."
+    ],
+    "answer": "a",
+    "explanation": "Type 1 hypervisors (bare-metal) run directly on hardware without a host OS, offering better performance and security. Examples include VMware ESXi and Microsoft Hyper-V. Type 2 hypervisors run as an application on a host OS and are typically used for desktop virtualization. Examples include VirtualBox and VMware Workstation."
+  },
+  {
+    "id": 11,
+    "section": "Section 1: IT Architecture",
+    "category": "Infrastructure",
+    "question": "What is Infrastructure as Code (IaC) and what is its main advantage?",
+    "options": [
+      "Writing application code that directly interfaces with infrastructure APIs without an abstraction layer.",
+      "Managing and provisioning computing infrastructure through machine-readable configuration files rather than manual processes, enabling repeatable and version-controlled infrastructure.",
+      "A coding standard that requires all infrastructure-related functions to be isolated in a single module.",
+      "A practice of embedding infrastructure monitoring logic directly within application source code."
+    ],
+    "answer": "b",
+    "explanation": "Infrastructure as Code (IaC) treats infrastructure configuration as software. Tools like Terraform, Ansible, and AWS CloudFormation allow teams to define infrastructure in version-controlled files, enabling consistent, repeatable provisioning, automated testing, and faster disaster recovery."
+  },
+  {
+    "id": 12,
+    "section": "Section 1: IT Architecture",
+    "category": "Containerization",
+    "question": "What is containerization and how does it differ from traditional virtual machines?",
+    "options": [
+      "Containerization is a storage technique that groups related files into logical containers on disk.",
+      "Containerization packages an application and its dependencies into a lightweight, isolated unit that shares the host OS kernel, unlike VMs which include a full guest OS.",
+      "Containerization is a network segmentation method that groups servers into isolated network zones.",
+      "Containerization refers to wrapping legacy applications inside a compatibility layer to run on modern hardware."
+    ],
+    "answer": "b",
+    "explanation": "Containers (e.g., Docker) share the host OS kernel and only package application code and dependencies, making them much lighter and faster to start than VMs. VMs include a full guest OS per instance, consuming more memory and taking longer to boot. Containers are ideal for microservices and CI/CD pipelines."
+  },
+  {
+    "id": 13,
+    "section": "Section 1: IT Architecture",
+    "category": "Containerization",
+    "question": "What is Kubernetes and what problem does it solve?",
+    "options": [
+      "A container image registry that stores and distributes Docker images across teams.",
+      "An open-source container orchestration platform that automates deployment, scaling, and management of containerized applications across a cluster of machines.",
+      "A static analysis tool that scans container images for security vulnerabilities.",
+      "A programming language developed by Google for writing cloud-native applications."
+    ],
+    "answer": "b",
+    "explanation": "Kubernetes (K8s) solves the operational complexity of running containers at scale. It automates container scheduling, self-healing (restarts failed containers), horizontal scaling, rolling updates, service discovery, and load balancing, allowing operators to manage clusters declaratively."
+  },
+  {
+    "id": 14,
+    "section": "Section 1: IT Architecture",
+    "category": "Security Architecture",
+    "question": "What is the Zero Trust security model?",
+    "options": [
+      "A security policy that restricts internet access to zero hours per day for all users.",
+      "A security framework that requires all users, devices, and network flows to be continuously verified, granting the least privilege access regardless of network location.",
+      "A firewall configuration that blocks all inbound and outbound traffic by default.",
+      "A compliance standard that mandates zero vulnerabilities in production code before deployment."
+    ],
+    "answer": "b",
+    "explanation": "Zero Trust operates on the principle 'never trust, always verify.' Unlike perimeter-based security (trust everything inside the network), Zero Trust authenticates and authorizes every request, regardless of origin. It combines identity verification, device health checks, micro-segmentation, and least-privilege access."
+  },
+  {
+    "id": 15,
+    "section": "Section 1: IT Architecture",
+    "category": "Disaster Recovery",
+    "question": "What is Recovery Point Objective (RPO) in disaster recovery planning?",
+    "options": [
+      "The maximum time it takes to restore a system to full operation after a disaster.",
+      "The maximum acceptable amount of data loss measured in time; it defines how far back in time a recovery must reach.",
+      "The percentage of system uptime guaranteed by a service level agreement.",
+      "The total cost of recovering all systems after a major incident."
+    ],
+    "answer": "b",
+    "explanation": "RPO defines how much data loss is acceptable. For example, an RPO of 1 hour means the organization can tolerate losing up to 1 hour of data. This drives backup frequency decisions. A lower RPO requires more frequent backups or continuous replication."
+  },
+  {
+    "id": 16,
+    "section": "Section 1: IT Architecture",
+    "category": "Disaster Recovery",
+    "question": "What is Recovery Time Objective (RTO)?",
+    "options": [
+      "The maximum acceptable amount of data loss after a disaster, measured in time.",
+      "The maximum acceptable time to restore a system or process to operational status after a disruption.",
+      "The total time required to perform a full backup of all critical systems.",
+      "The time interval between scheduled maintenance windows."
+    ],
+    "answer": "b",
+    "explanation": "RTO is the target time within which a business process must be restored after a disaster. For example, an RTO of 4 hours means systems must be back online within 4 hours of an outage. Lower RTOs require more sophisticated and costly DR solutions like hot standby systems."
+  },
+  {
+    "id": 17,
+    "section": "Section 1: IT Architecture",
+    "category": "Storage Architecture",
+    "question": "What is the difference between a Storage Area Network (SAN) and Network Attached Storage (NAS)?",
+    "options": [
+      "SAN stores files on local drives while NAS stores data in the cloud.",
+      "SAN provides block-level storage over a dedicated high-speed network, typically used for databases; NAS provides file-level storage over a standard network, suitable for shared file access.",
+      "SAN is a software-defined storage solution; NAS is a hardware-only appliance.",
+      "SAN supports only Windows servers; NAS supports only Linux servers."
+    ],
+    "answer": "b",
+    "explanation": "SAN presents storage as raw block devices to servers, offering high performance for databases and mission-critical applications. NAS presents storage as a shared file system over Ethernet (NFS, SMB), making it ideal for file sharing. SAN requires specialized infrastructure (Fibre Channel or iSCSI), while NAS uses standard networking."
+  },
+  {
+    "id": 18,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is SD-WAN (Software-Defined Wide Area Network)?",
+    "options": [
+      "A standard for encrypting WAN traffic between two data centers using hardware security modules.",
+      "A technology that uses software to control WAN connectivity, simplifying management by decoupling the network control plane from the hardware and enabling dynamic routing across multiple connection types.",
+      "A physical WAN topology that uses a fully meshed fiber optic network between all branch offices.",
+      "A network protocol that replaces BGP for routing traffic across the public internet."
+    ],
+    "answer": "b",
+    "explanation": "SD-WAN abstracts WAN hardware, allowing centralized software management of connections across MPLS, broadband, LTE, and more. It enables intelligent traffic routing based on application policies, reduces costs compared to MPLS-only WANs, and improves performance for cloud applications."
+  },
+  {
+    "id": 19,
+    "section": "Section 1: IT Architecture",
+    "category": "Security Architecture",
+    "question": "What is a bastion host in network architecture?",
+    "options": [
+      "A high-availability server that acts as a primary failover for the main application server.",
+      "A hardened, purpose-built server that provides a controlled access point to a private network from an external network, typically used for administrative access.",
+      "A backup DNS server that maintains a replica of all DNS zone records.",
+      "A network device that aggregates multiple VPN tunnels from remote branch offices."
+    ],
+    "answer": "b",
+    "explanation": "A bastion host is a specially hardened server exposed to the internet, designed to withstand attacks. It serves as the single entry point for administrators to access internal servers (e.g., via SSH jump host). By funneling access through one point, it reduces the attack surface and enables detailed audit logging."
+  },
+  {
+    "id": 20,
+    "section": "Section 1: IT Architecture",
+    "category": "Data Architecture",
+    "question": "What is the difference between a data lake and a data warehouse?",
+    "options": [
+      "A data lake stores only structured relational data; a data warehouse stores only unstructured files.",
+      "A data lake stores raw data in its native format at scale for future use; a data warehouse stores structured, processed data optimized for specific analytical queries and reporting.",
+      "A data lake is an on-premises storage solution; a data warehouse is always cloud-based.",
+      "They are the same concept with different names used by different vendors."
+    ],
+    "answer": "b",
+    "explanation": "Data lakes store vast amounts of raw data (structured, semi-structured, unstructured) in their native format, offering flexibility for future analysis (schema-on-read). Data warehouses store cleaned and transformed data with a predefined schema (schema-on-write), optimized for BI and SQL analytics."
+  },
+  {
+    "id": 21,
+    "section": "Section 1: IT Architecture",
+    "category": "Security Architecture",
+    "question": "What is SIEM (Security Information and Event Management)?",
+    "options": [
+      "A cloud security framework that enforces data encryption standards across all services.",
+      "A solution that combines security information management and security event management, providing real-time analysis of security alerts generated by hardware and software.",
+      "A network appliance that blocks unauthorized traffic based on predefined firewall rules.",
+      "A certification standard for IT security professionals."
+    ],
+    "answer": "b",
+    "explanation": "SIEM systems aggregate log data from various sources across the IT infrastructure, correlate events, detect anomalies, and generate alerts. Examples include Splunk, IBM QRadar, and Microsoft Sentinel. SIEM is central to Security Operations Centers (SOCs) for threat detection and incident response."
+  },
+  {
+    "id": 22,
+    "section": "Section 1: IT Architecture",
+    "category": "Cloud Computing",
+    "question": "What is multi-cloud architecture and what is its primary advantage?",
+    "options": [
+      "Using multiple virtual machines within a single cloud provider to improve availability.",
+      "Distributing workloads across two or more cloud providers to avoid vendor lock-in, improve resilience, and leverage each provider's strengths.",
+      "A hybrid cloud approach where one cloud provider handles compute and another handles storage.",
+      "Running multiple cloud environments within an organization's private data center."
+    ],
+    "answer": "b",
+    "explanation": "Multi-cloud uses services from multiple providers (AWS, Azure, GCP, etc.). Benefits include avoiding vendor lock-in, selecting best-of-breed services, improving fault tolerance (if one provider has an outage), and satisfying data sovereignty requirements. The main challenge is increased management complexity."
+  },
+  {
+    "id": 23,
+    "section": "Section 1: IT Architecture",
+    "category": "Cloud Computing",
+    "question": "What is edge computing and why is it gaining importance?",
+    "options": [
+      "A technique for processing data at the geographic boundaries of cloud provider regions.",
+      "A distributed computing paradigm that brings computation and data storage closer to the sources of data (devices, sensors), reducing latency and bandwidth usage for real-time applications.",
+      "A security practice that enforces network policies at the perimeter edge of the corporate network.",
+      "A cloud billing model that charges based on compute cycles used at the network edge."
+    ],
+    "answer": "b",
+    "explanation": "Edge computing processes data near its source rather than sending it to a central cloud or data center. This reduces latency (critical for IoT, autonomous vehicles, AR/VR), lowers bandwidth costs, and enables real-time decision-making. It complements cloud computing rather than replacing it."
+  },
+  {
+    "id": 24,
+    "section": "Section 1: IT Architecture",
+    "category": "Cloud Computing",
+    "question": "What is serverless computing?",
+    "options": [
+      "A hosting model where the application runs without any backend server infrastructure.",
+      "A cloud execution model where the provider dynamically manages server provisioning and scaling; developers deploy functions that run in response to events and are billed only for execution time.",
+      "A networking approach where servers are replaced entirely by peer-to-peer connections.",
+      "An on-premises deployment model that eliminates the need for physical servers by using diskless workstations."
+    ],
+    "answer": "b",
+    "explanation": "Serverless (e.g., AWS Lambda, Azure Functions) abstracts server management entirely. Developers write event-driven functions; the provider handles scaling, patching, and availability. You pay per invocation/execution time rather than for idle resources. There are still servers — they are simply managed by the cloud provider."
+  },
+  {
+    "id": 25,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is Network Address Translation (NAT) and why is it used?",
+    "options": [
+      "A protocol that translates domain names into IP addresses to facilitate routing.",
+      "A technique that maps private IP addresses to one or more public IP addresses, allowing multiple devices on a private network to share a single public IP and access the internet.",
+      "A standard for translating IPv4 addresses to IPv6 format.",
+      "A firewall rule set that translates application-layer protocols into network-layer packets."
+    ],
+    "answer": "b",
+    "explanation": "NAT allows organizations to use private IP ranges (RFC 1918) internally and present one or a few public IPs to the internet. This conserves IPv4 addresses, adds a layer of obscurity for internal hosts, and is implemented in nearly all routers and firewalls."
+  },
+  {
+    "id": 26,
+    "section": "Section 1: IT Architecture",
+    "category": "Security Architecture",
+    "question": "What is a Web Application Firewall (WAF)?",
+    "options": [
+      "A hardware device that encrypts all web traffic between the browser and the server.",
+      "A security appliance or service that monitors, filters, and blocks HTTP/HTTPS traffic to and from a web application, protecting against common web exploits like SQL injection and XSS.",
+      "A proxy server that caches web content to accelerate page load times.",
+      "A network switch configured to isolate web servers in a dedicated VLAN."
+    ],
+    "answer": "b",
+    "explanation": "A WAF operates at the application layer (Layer 7) and inspects HTTP requests and responses. It protects against OWASP Top 10 attacks including SQL injection, cross-site scripting (XSS), and CSRF. WAFs can be deployed as hardware appliances, software modules, or cloud services (e.g., AWS WAF, Cloudflare)."
+  },
+  {
+    "id": 27,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is the OSI model and how many layers does it have?",
+    "options": [
+      "The Open Systems Interconnection model; a 5-layer conceptual framework for network communication.",
+      "The Open Systems Interconnection model; a 7-layer conceptual framework that standardizes communication functions of a telecommunication or computing system.",
+      "The Operational Service Interface model; a 4-layer framework for cloud service delivery.",
+      "The Open Software Integration model; a 6-layer reference model for enterprise application integration."
+    ],
+    "answer": "b",
+    "explanation": "The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. Each layer has a specific role and communicates with the layers above and below it. It is a conceptual model used for troubleshooting and understanding network protocols."
+  },
+  {
+    "id": 28,
+    "section": "Section 1: IT Architecture",
+    "category": "Infrastructure",
+    "question": "What is high availability (HA) in IT architecture?",
+    "options": [
+      "The ability of a system to process transactions faster than a competitor's system.",
+      "A system design approach that ensures an agreed level of operational performance and uptime, typically by eliminating single points of failure through redundancy and failover mechanisms.",
+      "A cloud pricing tier that guarantees maximum resource allocation at all times.",
+      "A backup strategy that stores all copies of data in a highly secure facility."
+    ],
+    "answer": "b",
+    "explanation": "High Availability (HA) aims to minimize downtime through redundant components, automatic failover, and geographic distribution. HA is often measured in 'nines' (e.g., 99.99% = ~52 minutes downtime/year). Techniques include active-passive clustering, active-active load balancing, and multi-region deployments."
+  },
+  {
+    "id": 29,
+    "section": "Section 1: IT Architecture",
+    "category": "Infrastructure",
+    "question": "What is the difference between fault tolerance and high availability?",
+    "options": [
+      "Fault tolerance and high availability are synonymous terms used interchangeably.",
+      "Fault tolerance means a system continues operating without interruption even when a component fails (zero downtime); high availability minimizes downtime through rapid recovery but may allow brief interruptions.",
+      "Fault tolerance refers to data integrity; high availability refers to system performance.",
+      "High availability is achievable with a single server; fault tolerance always requires multiple data centers."
+    ],
+    "answer": "b",
+    "explanation": "Fault-tolerant systems have no single points of failure and continue operating seamlessly during a component failure (e.g., RAID arrays, dual power supplies). HA systems recover quickly but may have brief interruptions during failover. Fault tolerance is more costly and complex to implement."
+  },
+  {
+    "id": 30,
+    "section": "Section 1: IT Architecture",
+    "category": "Data Architecture",
+    "question": "What is a three-tier architecture in IT infrastructure?",
+    "options": [
+      "An architecture with three geographic regions for data replication.",
+      "A layered architecture pattern separating the presentation tier (client), logic tier (application/middleware), and data tier (database), each on independently scalable infrastructure.",
+      "A security model with three levels of access control: read, write, and execute.",
+      "A storage hierarchy with hot, warm, and cold storage tiers."
+    ],
+    "answer": "b",
+    "explanation": "The three-tier architecture separates concerns into presentation (web server/client), application (business logic server), and data (database server) tiers. This separation allows each tier to scale independently, improves maintainability, and is the foundation for most enterprise web applications."
+  },
+  {
+    "id": 31,
+    "section": "Section 1: IT Architecture",
+    "category": "Security Architecture",
+    "question": "What is network segmentation and why is it a security best practice?",
+    "options": [
+      "Splitting a single large network into smaller subnets to divide bandwidth equally among users.",
+      "Dividing a network into isolated segments or zones to limit the lateral movement of attackers, reduce the blast radius of a breach, and apply granular security controls to each segment.",
+      "Partitioning a network into redundant paths to increase throughput.",
+      "Breaking a network connection into multiple packets for more efficient transmission."
+    ],
+    "answer": "b",
+    "explanation": "Network segmentation isolates systems based on function, sensitivity, or risk (e.g., separating POS systems from corporate networks). If an attacker compromises one segment, they cannot freely move to others. VLANs, firewalls, and ACLs are common implementation tools. It is a core principle of defense-in-depth."
+  },
+  {
+    "id": 32,
+    "section": "Section 1: IT Architecture",
+    "category": "Disaster Recovery",
+    "question": "What is the difference between Business Continuity Planning (BCP) and Disaster Recovery (DR)?",
+    "options": [
+      "BCP and DR are identical documents required by the same compliance frameworks.",
+      "BCP is a broader strategy for maintaining all essential business operations during and after a disaster; DR is a subset of BCP focused specifically on restoring IT systems and data.",
+      "BCP focuses on data recovery; DR focuses on business process continuity.",
+      "DR applies to natural disasters only; BCP covers human-caused incidents."
+    ],
+    "answer": "b",
+    "explanation": "Business Continuity Planning covers people, processes, and technology to keep the whole business running during disruptions. Disaster Recovery is the IT-specific component of BCP, dealing with restoring data, systems, and infrastructure after a catastrophic event. DR plans feed into the broader BCP."
+  },
+  {
+    "id": 33,
+    "section": "Section 1: IT Architecture",
+    "category": "Cloud Computing",
+    "question": "What is a hybrid cloud architecture?",
+    "options": [
+      "A cloud environment that uses both virtual machines and containers in the same deployment.",
+      "An IT environment that combines on-premises infrastructure (or a private cloud) with one or more public cloud services, connected and orchestrated to work as a unified environment.",
+      "A cloud model where two organizations share the same cloud infrastructure under a joint agreement.",
+      "A cloud architecture that uses multiple availability zones within a single cloud provider."
+    ],
+    "answer": "b",
+    "explanation": "Hybrid cloud integrates on-premises or private cloud resources with public cloud services. Organizations use it to keep sensitive data on-premises for compliance while leveraging public cloud elasticity for variable workloads (cloud bursting). Tools like Azure Arc and AWS Outposts facilitate hybrid deployments."
+  },
+  {
+    "id": 34,
+    "section": "Section 1: IT Architecture",
+    "category": "Virtualization",
+    "question": "What is software-defined networking (SDN)?",
+    "options": [
+      "A practice of writing network configuration scripts to automate switch and router setup.",
+      "An approach to networking that decouples the control plane (network intelligence) from the data plane (forwarding hardware), enabling centralized, programmable network management.",
+      "A software emulator that replicates the behavior of network hardware in a virtual environment.",
+      "A security framework that uses machine learning to detect and block network intrusions."
+    ],
+    "answer": "b",
+    "explanation": "SDN separates the control plane (decisions about where traffic goes) from the data plane (actual traffic forwarding). A centralized SDN controller provides a global view of the network and programs forwarding rules dynamically. This enables flexible, automated network management and is foundational for cloud networking."
+  },
+  {
+    "id": 35,
+    "section": "Section 1: IT Architecture",
+    "category": "Infrastructure",
+    "question": "What are the main differences between horizontal and vertical scaling in infrastructure?",
+    "options": [
+      "Horizontal scaling increases CPU cores; vertical scaling increases the number of servers.",
+      "Vertical scaling (scaling up) adds more resources to an existing machine; horizontal scaling (scaling out) adds more machines to distribute the load.",
+      "Horizontal scaling applies only to databases; vertical scaling applies only to web servers.",
+      "Vertical scaling requires no downtime; horizontal scaling always requires a maintenance window."
+    ],
+    "answer": "b",
+    "explanation": "Vertical scaling upgrades a single machine (more CPU, RAM, storage) and has a physical limit. Horizontal scaling adds more instances behind a load balancer, is theoretically unlimited, and provides better fault tolerance. Modern distributed systems favor horizontal scaling for elasticity and availability."
+  },
+  {
+    "id": 36,
+    "section": "Section 1: IT Architecture",
+    "category": "Network Architecture",
+    "question": "What is MPLS (Multiprotocol Label Switching) and when is it used?",
+    "options": [
+      "A wireless networking protocol that encrypts traffic using per-packet labels.",
+      "A high-performance networking technology that directs data based on short path labels rather than long network addresses, commonly used in enterprise WAN and service provider networks for predictable performance and QoS.",
+      "A load balancing protocol that assigns labels to servers based on current CPU utilization.",
+      "A DNS extension that adds multi-level labels to domain names for better routing."
+    ],
+    "answer": "b",
+    "explanation": "MPLS uses labels to make forwarding decisions instead of IP routing lookups at each hop, resulting in faster and more predictable routing. It supports traffic engineering and QoS, making it popular for enterprise WANs requiring guaranteed bandwidth for voice and video. SD-WAN is increasingly replacing MPLS due to lower cost."
+  },
+  {
+    "id": 37,
+    "section": "Section 1: IT Architecture",
+    "category": "Data Architecture",
+    "question": "What is a microkernel (plug-in) architecture pattern in application design?",
+    "options": [
+      "An OS design where the kernel runs only the minimum set of functions and delegates everything else to user-space processes — this exact concept also applies to IT platforms.",
+      "An application architecture pattern with a lean core system and plug-in modules that extend functionality, keeping the core stable while allowing independent feature development and deployment.",
+      "A database architecture where a tiny kernel handles all data access and extensions are loaded per query.",
+      "A network architecture where a minimal routing core handles base traffic and plugins handle protocol translation."
+    ],
+    "answer": "b",
+    "explanation": "In software/application architecture, the microkernel pattern has a minimal core (providing base functionality) and plug-in components that add features. This is seen in IDEs like Eclipse, browsers with extensions, and platforms like Jenkins. It promotes extensibility without modifying the core system."
+  },
+  {
+    "id": 38,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is a microservice?",
+    "options": [
+      "A small, independently deployable service that is responsible for a specific business capability, communicates via well-defined APIs, and can be developed, deployed, and scaled independently from other services.",
+      "When a bus of SOA services are set up in order to be consumed by one or dozens of clients.",
+      "A portion of code that needs to be delivered as a single artifact alongside other components.",
+      "Dozens of components collected into a single deployable unit for simplified management."
+    ],
+    "answer": "a",
+    "explanation": "A microservice is a small, autonomous service modeled around a business domain. Each service has its own process, data store, and deployment pipeline. This enables teams to develop and ship independently, choose the best technology per service, and scale individual services as needed."
+  },
+  {
+    "id": 39,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is the main difference between a monolithic architecture and a microservices architecture?",
+    "options": [
+      "Monolithic applications run on-premises; microservices run exclusively in the cloud.",
+      "A monolithic application is built as a single, tightly coupled deployable unit; microservices decompose the application into small, independently deployable services each owning their domain.",
+      "Monolithic applications use relational databases; microservices only use NoSQL databases.",
+      "Microservices are faster than monoliths because they use compiled languages."
+    ],
+    "answer": "b",
+    "explanation": "In a monolith, all modules are bundled into one deployable artifact. A change in one module requires redeploying the entire application. Microservices decompose functionality into autonomous services. Trade-offs: monoliths are simpler to develop and debug; microservices offer better scalability, team autonomy, and resilience at the cost of distributed system complexity."
+  },
+  {
+    "id": 40,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Principles",
+    "question": "What does the SOLID acronym stand for in software design?",
+    "options": [
+      "Scalable, Observable, Loosely-coupled, Idempotent, Distributed.",
+      "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+      "Secure, Optimized, Lean, Integrated, Distributed.",
+      "Synchronous, Object-oriented, Layered, Idiomatic, Decoupled."
+    ],
+    "answer": "b",
+    "explanation": "SOLID is a set of five object-oriented design principles introduced by Robert C. Martin. They guide developers to create systems that are easier to maintain, extend, and test. Each principle addresses a different aspect of class and module design."
+  },
+  {
+    "id": 41,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Principles",
+    "question": "What is the Single Responsibility Principle (SRP)?",
+    "options": [
+      "A class should be able to perform only one operation at a time to avoid concurrency issues.",
+      "A class or module should have one, and only one, reason to change — meaning it should encapsulate only one business concern or responsibility.",
+      "Each microservice should be responsible for a single database table.",
+      "A function should never call more than one other function to keep responsibility chains short."
+    ],
+    "answer": "b",
+    "explanation": "SRP states that a class should only have one job. If a class handles both data persistence and business logic, a change in persistence affects the business logic code and vice versa. SRP leads to smaller, more focused classes that are easier to test, understand, and refactor."
+  },
+  {
+    "id": 42,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Principles",
+    "question": "What is the Open/Closed Principle (OCP)?",
+    "options": [
+      "Classes should be open for external access but closed to modification by subclasses.",
+      "Software entities (classes, modules, functions) should be open for extension but closed for modification — new behavior is added by extending, not changing existing code.",
+      "Public APIs should be open to all consumers but closed (rate-limited) to prevent abuse.",
+      "A module should open a database connection before processing and close it when done."
+    ],
+    "answer": "b",
+    "explanation": "OCP, introduced by Bertrand Meyer, means you can add new functionality through new code (e.g., new subclasses or strategy implementations) without altering stable, tested existing code. This reduces the risk of introducing bugs in working code when requirements change."
+  },
+  {
+    "id": 43,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Principles",
+    "question": "What is the Liskov Substitution Principle (LSP)?",
+    "options": [
+      "Objects of a subclass must be replaceable with objects of their superclass without altering the correctness of the program.",
+      "A subclass should substitute its parent class by completely overriding all inherited methods.",
+      "When substituting a library dependency, the new library must have the identical API surface.",
+      "Service instances must be substitutable in a cluster without rerouting active connections."
+    ],
+    "answer": "a",
+    "explanation": "LSP, defined by Barbara Liskov, states that if S is a subtype of T, then objects of T may be replaced with objects of S without changing program correctness. In practice, subclasses must honor the contract of the base class — they should not strengthen preconditions or weaken postconditions."
+  },
+  {
+    "id": 44,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Principles",
+    "question": "What is the Dependency Inversion Principle (DIP)?",
+    "options": [
+      "High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.",
+      "Dependencies between services should always be inverted by routing calls through an API gateway.",
+      "Constructor injection should be used instead of setter injection to invert the direction of dependency.",
+      "Circular dependencies between modules must be inverted by extracting a shared utility layer."
+    ],
+    "answer": "a",
+    "explanation": "DIP decouples high-level business logic from low-level infrastructure concerns by introducing abstractions (interfaces). For example, a business service should depend on a IRepository interface, not a concrete SqlRepository class. This makes the system easier to test (mock implementations) and change (swap SQL for NoSQL)."
+  },
+  {
+    "id": 45,
+    "section": "Section 2: Software Architecture",
+    "category": "Domain-Driven Design",
+    "question": "What is Domain-Driven Design (DDD)?",
+    "options": [
+      "A database design methodology that models schemas directly from business entity diagrams.",
+      "A software development approach that centers the design on the business domain, aligning the software model closely with domain experts' mental models using a shared ubiquitous language.",
+      "A testing strategy where domain experts write acceptance tests before developers write code.",
+      "A project management framework for software teams working in specific industry domains."
+    ],
+    "answer": "b",
+    "explanation": "DDD, introduced by Eric Evans, focuses on modeling complex business domains. Key concepts include ubiquitous language (shared vocabulary between developers and domain experts), bounded contexts, aggregates, entities, value objects, and domain events. DDD aligns code structure with business concepts, improving communication and long-term maintainability."
+  },
+  {
+    "id": 46,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is an API Gateway in microservices architecture?",
+    "options": [
+      "A physical network appliance that routes HTTP requests to backend services based on IP rules.",
+      "A server that acts as the single entry point for all client requests, handling routing, authentication, rate limiting, SSL termination, and request aggregation before forwarding calls to appropriate microservices.",
+      "A message broker that queues API calls during traffic spikes and delivers them when services are available.",
+      "A developer portal where API documentation and SDK downloads are hosted."
+    ],
+    "answer": "b",
+    "explanation": "An API Gateway decouples clients from backend microservices. It handles cross-cutting concerns like auth, rate limiting, logging, and request transformation in one place. Examples include Kong, AWS API Gateway, and Nginx. The Gateway Aggregation pattern lets it combine multiple microservice calls into one client response."
+  },
+  {
+    "id": 47,
+    "section": "Section 2: Software Architecture",
+    "category": "Event-Driven Architecture",
+    "question": "What is Event-Driven Architecture (EDA)?",
+    "options": [
+      "An architecture where every user interaction triggers a scheduled batch job.",
+      "A design paradigm in which system components communicate by producing, detecting, and reacting to events, enabling loose coupling, asynchronous processing, and high scalability.",
+      "A UI design pattern where user interface components respond to DOM events.",
+      "A deployment strategy where services are restarted in response to infrastructure monitoring alerts."
+    ],
+    "answer": "b",
+    "explanation": "In EDA, producers emit events (e.g., 'OrderPlaced') and consumers subscribe to relevant events without direct coupling. Message brokers (Kafka, RabbitMQ, EventBridge) carry events. EDA enables real-time processing, easy addition of new consumers without changing producers, and natural audit trails via event logs."
+  },
+  {
+    "id": 48,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is CQRS (Command Query Responsibility Segregation)?",
+    "options": [
+      "A SQL optimization pattern that separates SELECT queries from INSERT/UPDATE/DELETE commands at the database level.",
+      "An architectural pattern that separates the read model (queries) from the write model (commands) of a system, allowing each to be optimized, scaled, and evolved independently.",
+      "A microservices communication pattern where commands are synchronous and queries are asynchronous.",
+      "A version control strategy that separates feature branches (commands) from release branches (queries)."
+    ],
+    "answer": "b",
+    "explanation": "CQRS splits a service into two models: commands change state (write) and queries return data (read). This allows read models to be denormalized and optimized for performance independently of write models. CQRS pairs well with Event Sourcing — the write side publishes events that update the read-side projections."
+  },
+  {
+    "id": 49,
+    "section": "Section 2: Software Architecture",
+    "category": "Event-Driven Architecture",
+    "question": "What is Event Sourcing?",
+    "options": [
+      "A logging pattern that records error events into an external monitoring service.",
+      "An architectural pattern where the state of an application is determined by replaying a sequence of immutable events stored in an event log, rather than storing only the current state.",
+      "A pattern for sourcing real-time events from external systems via webhooks.",
+      "A data integration technique that uses change data capture to replicate events between databases."
+    ],
+    "answer": "b",
+    "explanation": "In Event Sourcing, every change to application state is captured as an immutable event appended to an event store. The current state is derived by replaying all events. Benefits include a complete audit log, ability to replay history, and temporal queries. It pairs naturally with CQRS and is common in financial systems."
+  },
+  {
+    "id": 50,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is the Saga pattern and when should it be used?",
+    "options": [
+      "A pattern for generating sequential IDs across distributed databases without a centralized sequence generator.",
+      "A pattern for managing distributed transactions across multiple microservices by breaking the transaction into a sequence of local transactions, each publishing events or commands that trigger the next step, with compensating transactions for rollback.",
+      "A long-running batch process pattern used for ETL operations in data pipelines.",
+      "A pattern that stores all versions of an entity, enabling time-travel queries."
+    ],
+    "answer": "b",
+    "explanation": "Traditional ACID transactions across microservices are impractical. The Saga pattern coordinates multi-service transactions using either choreography (services react to events) or orchestration (a central coordinator issues commands). Each step has a compensating transaction to undo it if a later step fails, maintaining eventual consistency."
+  },
+  {
+    "id": 51,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is the Circuit Breaker pattern?",
+    "options": [
+      "A deployment strategy that routes a small percentage of traffic to a new service version to detect failures early.",
+      "A resilience pattern that monitors calls to a remote service and, after detecting repeated failures, opens the circuit to stop making calls and return a fallback response, preventing cascade failures.",
+      "A network security pattern that blocks traffic after detecting suspicious connection patterns.",
+      "A testing technique that deliberately breaks production services to validate resilience."
+    ],
+    "answer": "b",
+    "explanation": "The Circuit Breaker (popularized by Netflix Hystrix) has three states: Closed (normal), Open (failures exceeded threshold, calls short-circuit), and Half-Open (test if service recovered). It prevents a slow or failing dependency from exhausting threads and cascading failures to callers. Istio, Resilience4j, and Polly implement this pattern."
+  },
+  {
+    "id": 52,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is the Strangler Fig pattern?",
+    "options": [
+      "A security pattern for gradually removing deprecated API versions from production.",
+      "A migration strategy for incrementally replacing a legacy monolithic system by gradually moving functionality to a new architecture, routing calls to either the legacy or new system until the monolith is fully decommissioned.",
+      "A pattern that wraps third-party libraries in an abstraction layer to isolate their impact.",
+      "A database migration strategy that archives old records to cold storage while keeping recent data active."
+    ],
+    "answer": "b",
+    "explanation": "Named after the strangler fig tree that grows around and eventually replaces its host, this pattern lets teams migrate from a monolith to microservices incrementally. A facade intercepts calls and routes them to the new services or the old system. Over time, the monolith shrinks and the new system grows until the legacy is retired."
+  },
+  {
+    "id": 53,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is the Twelve-Factor App methodology?",
+    "options": [
+      "A twelve-step agile development process for building enterprise web applications.",
+      "A set of twelve best practices for building cloud-native, scalable, and maintainable software-as-a-service applications, covering areas like codebase, dependencies, configuration, processes, and logs.",
+      "A twelve-layer security standard for web APIs based on OWASP guidelines.",
+      "A twelve-sprint development roadmap template for SaaS product launches."
+    ],
+    "answer": "b",
+    "explanation": "The Twelve-Factor App (by Heroku) defines principles for SaaS apps: single codebase, explicit dependency declaration, config in environment variables, backing services as attached resources, stateless processes, port binding, process concurrency, disposability, dev/prod parity, log streaming, and admin processes separation."
+  },
+  {
+    "id": 54,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is a service registry and how does it enable service discovery?",
+    "options": [
+      "A central database that stores API documentation for all microservices in an organization.",
+      "A database that keeps track of the network locations (host, port) of service instances; services register themselves on startup and deregister on shutdown, allowing clients to discover available instances dynamically.",
+      "A configuration management tool that stores environment-specific settings for each service.",
+      "A version control system that tracks all deployed versions of each microservice."
+    ],
+    "answer": "b",
+    "explanation": "In dynamic cloud environments, service instances scale in and out with changing IP addresses. A service registry (e.g., Consul, Eureka, etcd) lets services register their current location. Clients query the registry to find healthy instances. Client-side discovery (client picks an instance) and server-side discovery (load balancer queries registry) are the two main patterns."
+  },
+  {
+    "id": 55,
+    "section": "Section 2: Software Architecture",
+    "category": "API Design",
+    "question": "What is idempotency in the context of APIs?",
+    "options": [
+      "The ability of an API to handle requests in any order without affecting the final result.",
+      "The property that an operation can be applied multiple times without changing the result beyond the initial application — the same request produces the same outcome regardless of how many times it is executed.",
+      "The requirement that all API responses must be formatted in JSON.",
+      "A security property that ensures each API token can only be used once."
+    ],
+    "answer": "b",
+    "explanation": "Idempotency is critical for reliability in distributed systems. HTTP GET, PUT, and DELETE are idempotent; POST typically is not. An idempotent retry strategy ensures that network failures don't cause duplicate operations (e.g., double charges). APIs can use idempotency keys (a unique request ID) to detect and deduplicate retried requests."
+  },
+  {
+    "id": 56,
+    "section": "Section 2: Software Architecture",
+    "category": "API Design",
+    "question": "What is the key difference between REST and SOAP as API architectural styles?",
+    "options": [
+      "REST uses JSON only; SOAP uses XML only. They are otherwise functionally equivalent.",
+      "REST is a lightweight architectural style using standard HTTP methods and representations (JSON/XML); SOAP is a protocol with strict message format (XML), built-in error handling, and WS-* security standards.",
+      "REST is for internal APIs; SOAP is for public APIs.",
+      "SOAP is newer and faster; REST is a legacy protocol from the early web."
+    ],
+    "answer": "b",
+    "explanation": "REST (Representational State Transfer) leverages HTTP semantics (GET, POST, PUT, DELETE) and is stateless, flexible, and lightweight. SOAP (Simple Object Access Protocol) is a protocol with a strictly defined XML envelope, WSDL contracts, and built-in standards for security and transactions. REST dominates modern web APIs; SOAP persists in enterprise and banking systems."
+  },
+  {
+    "id": 57,
+    "section": "Section 2: Software Architecture",
+    "category": "API Design",
+    "question": "What is GraphQL and what problem does it solve compared to REST?",
+    "options": [
+      "A graph database query language used to traverse relational data stored in Neo4j.",
+      "A query language and runtime for APIs that allows clients to request exactly the data they need, solving over-fetching and under-fetching problems common with REST endpoints.",
+      "A visualization tool for mapping REST API dependency graphs.",
+      "An extension to SQL that adds graph traversal capabilities to relational databases."
+    ],
+    "answer": "b",
+    "explanation": "GraphQL (by Facebook) gives clients control over the response shape. With REST, multiple endpoints may be needed (under-fetching) or endpoints return too much data (over-fetching). GraphQL exposes a single endpoint where the client specifies exactly which fields it needs in a typed schema. This reduces round trips and payload sizes."
+  },
+  {
+    "id": 58,
+    "section": "Section 2: Software Architecture",
+    "category": "API Design",
+    "question": "What is gRPC and what are its key advantages over REST JSON APIs?",
+    "options": [
+      "A Google remote procedure call framework that uses HTTP/2 and Protocol Buffers for efficient, strongly typed, binary-serialized communication with support for streaming and multiplexing.",
+      "A REST framework developed by Google that enforces strict API versioning rules.",
+      "A GraphQL runtime that compiles queries into SQL for faster execution.",
+      "A JavaScript RPC library for browser-to-browser peer communication."
+    ],
+    "answer": "a",
+    "explanation": "gRPC uses HTTP/2 (multiplexing, header compression) and Protocol Buffers (binary, compact, schema-defined), resulting in lower latency and smaller payloads than REST/JSON. It supports unary, server streaming, client streaming, and bidirectional streaming RPCs. It is ideal for internal microservice-to-microservice communication."
+  },
+  {
+    "id": 59,
+    "section": "Section 2: Software Architecture",
+    "category": "Distributed Systems",
+    "question": "What is the difference between synchronous and asynchronous communication in microservices?",
+    "options": [
+      "Synchronous uses HTTP; asynchronous uses only WebSockets.",
+      "In synchronous communication, the caller waits for a response before proceeding (e.g., REST, gRPC); in asynchronous communication, the caller sends a message and continues without waiting, relying on a message broker (e.g., Kafka, RabbitMQ).",
+      "Synchronous means both services are deployed simultaneously; asynchronous means deployments are staggered.",
+      "Synchronous services run on the same thread; asynchronous services run on separate servers."
+    ],
+    "answer": "b",
+    "explanation": "Synchronous communication creates temporal coupling — both services must be available simultaneously. If the downstream service is slow, the upstream caller blocks. Asynchronous communication via message brokers decouples services in time and allows independent scaling, better resilience, and natural load leveling at the cost of increased complexity."
+  },
+  {
+    "id": 60,
+    "section": "Section 2: Software Architecture",
+    "category": "Distributed Systems",
+    "question": "What is a message broker and name two examples?",
+    "options": [
+      "A middleware service that mediates contract negotiations between service owners in an SOA governance model.",
+      "A middleware component that enables asynchronous communication between services by receiving, storing, and routing messages between producers and consumers. Examples: Apache Kafka and RabbitMQ.",
+      "A network load balancer that routes HTTP messages to appropriate backend services. Examples: Nginx and HAProxy.",
+      "A service that translates between different message formats such as JSON and XML. Examples: MuleSoft and Apache Camel."
+    ],
+    "answer": "b",
+    "explanation": "Message brokers (Kafka, RabbitMQ, ActiveMQ, AWS SQS/SNS) decouple producers from consumers. Producers publish messages to queues or topics; consumers receive them at their own pace. Kafka is designed for high-throughput event streaming with durable, replayable logs. RabbitMQ focuses on flexible routing with acknowledgements for reliable delivery."
+  },
+  {
+    "id": 61,
+    "section": "Section 2: Software Architecture",
+    "category": "Distributed Systems",
+    "question": "What is database sharding?",
+    "options": [
+      "Encrypting database records at rest by splitting the encryption key into multiple shards stored separately.",
+      "A horizontal scaling technique that partitions data across multiple database instances (shards), where each shard holds a subset of the total data, allowing the system to handle larger data volumes and higher throughput.",
+      "A database backup strategy that fragments backup files into smaller pieces for faster transfer.",
+      "A read replication technique where a primary database is copied to multiple read replicas."
+    ],
+    "answer": "b",
+    "explanation": "Sharding partitions rows across multiple database servers (e.g., users with IDs 1-1M on shard 1, 1M-2M on shard 2). Each shard is an independent database. Sharding improves write scalability but introduces complexity: cross-shard queries are expensive, resharding as data grows is complex, and maintaining data consistency across shards is challenging."
+  },
+  {
+    "id": 62,
+    "section": "Section 2: Software Architecture",
+    "category": "Distributed Systems",
+    "question": "What is the CAP Theorem?",
+    "options": [
+      "A security theorem stating that a system can only guarantee two of: Confidentiality, Availability, and Protection.",
+      "A theorem by Eric Brewer stating that a distributed system can only simultaneously guarantee two of three properties: Consistency, Availability, and Partition Tolerance.",
+      "A theorem stating that computational problems can only be classified by two of: Correctness, Atomicity, and Performance.",
+      "A principle stating that cloud architectures must choose between Cost, Agility, and Performance."
+    ],
+    "answer": "b",
+    "explanation": "CAP Theorem states: Consistency (every read returns the most recent write), Availability (every request gets a response), and Partition Tolerance (system operates despite network partitions). In a distributed system, network partitions are unavoidable, so architects choose CP (consistent but may be unavailable) or AP (available but may be stale)."
+  },
+  {
+    "id": 63,
+    "section": "Section 2: Software Architecture",
+    "category": "Distributed Systems",
+    "question": "What is eventual consistency?",
+    "options": [
+      "A consistency model where writes are rejected until all replicas acknowledge the update.",
+      "A consistency model used in distributed systems where, given no new updates, all replicas of a data item will converge to the same value over time, accepting that they may temporarily return stale data.",
+      "A database transaction isolation level that guarantees consistency at the cost of serialized access.",
+      "A design pattern that defers data validation to the final step of a processing pipeline."
+    ],
+    "answer": "b",
+    "explanation": "Eventual consistency (an AP system in CAP terms) allows replicas to temporarily diverge. DNS is a classic example: a TTL update propagates gradually. Amazon DynamoDB and Apache Cassandra offer eventual consistency by default. It enables high availability and low latency at the cost of possibly reading stale data for a brief window."
+  },
+  {
+    "id": 64,
+    "section": "Section 2: Software Architecture",
+    "category": "Data Architecture",
+    "question": "What is the fundamental difference between SQL (relational) and NoSQL databases?",
+    "options": [
+      "SQL databases are open source; NoSQL databases require paid licenses.",
+      "SQL databases store data in structured tables with predefined schemas and enforce ACID transactions; NoSQL databases use flexible data models (document, key-value, column-family, graph) optimized for specific access patterns and horizontal scalability.",
+      "SQL is used for reads only; NoSQL is used for writes only.",
+      "NoSQL databases cannot handle transactions of any kind."
+    ],
+    "answer": "b",
+    "explanation": "Relational databases (PostgreSQL, MySQL) excel at complex queries, joins, and strict consistency. NoSQL databases trade some consistency for flexibility and scalability: MongoDB (document), Redis (key-value), Cassandra (column-family), and Neo4j (graph) each optimize for different use cases. The choice depends on data structure, query patterns, and scale requirements."
+  },
+  {
+    "id": 65,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Patterns",
+    "question": "What are the three categories of the Gang of Four (GoF) design patterns?",
+    "options": [
+      "Structural, Behavioral, and Functional patterns.",
+      "Creational, Structural, and Behavioral patterns.",
+      "Creational, Operational, and Navigational patterns.",
+      "Abstract, Concrete, and Composite patterns."
+    ],
+    "answer": "b",
+    "explanation": "The Gang of Four book ('Design Patterns' by Gamma et al.) classifies 23 patterns into: Creational (object creation: Factory, Builder, Singleton, Prototype, Abstract Factory), Structural (class composition: Adapter, Facade, Decorator, Proxy, Composite, Bridge, Flyweight), and Behavioral (object interaction: Observer, Strategy, Command, Iterator, State, Template Method, etc.)."
+  },
+  {
+    "id": 66,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Patterns",
+    "question": "What is the Factory Method design pattern?",
+    "options": [
+      "A pattern that creates a single shared instance of a class throughout the application lifecycle.",
+      "A creational pattern that defines an interface for creating an object but lets subclasses decide which class to instantiate, decoupling client code from concrete implementations.",
+      "A pattern that groups a set of related factories under a common interface.",
+      "A pattern that uses a fluent API to construct complex objects step by step."
+    ],
+    "answer": "b",
+    "explanation": "The Factory Method delegates object creation to a factory method in subclasses. Client code calls the factory method (defined in an interface or abstract class) without knowing the concrete type that will be returned. This follows the Open/Closed Principle: add new product types by creating new subclasses without changing client code."
+  },
+  {
+    "id": 67,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Patterns",
+    "question": "What is the Observer design pattern?",
+    "options": [
+      "A pattern that monitors method execution time and logs it to an observability platform.",
+      "A behavioral pattern that defines a one-to-many dependency so that when one object (the subject/observable) changes state, all its dependents (observers) are notified and updated automatically.",
+      "A pattern that wraps an object to add new behaviors without modifying the original class.",
+      "A structural pattern that provides a unified interface to a set of interfaces in a subsystem."
+    ],
+    "answer": "b",
+    "explanation": "The Observer pattern decouples producers from consumers of state changes. The subject maintains a list of observers and notifies them on state change. It is the foundation for event handling in UI frameworks, reactive programming (RxJS, RxJava), and publish/subscribe messaging systems. JavaScript's EventEmitter is a direct implementation."
+  },
+  {
+    "id": 68,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Patterns",
+    "question": "What is the Strategy design pattern?",
+    "options": [
+      "A pattern that selects the optimal algorithm at compile time based on type parameters.",
+      "A behavioral pattern that defines a family of algorithms, encapsulates each one in a class, and makes them interchangeable so the algorithm can be selected at runtime without changing the client that uses it.",
+      "A pattern that chains processing steps together, where each step passes the result to the next.",
+      "A pattern that caches the result of an expensive computation and reuses it on subsequent calls."
+    ],
+    "answer": "b",
+    "explanation": "Strategy encapsulates algorithms behind an interface. The context class holds a reference to a strategy and delegates the algorithm work to it. This replaces conditionals (if/switch on type) with polymorphism. Example: a Sorter class that accepts a SortStrategy (BubbleSort, QuickSort, MergeSort) chosen at runtime."
+  },
+  {
+    "id": 69,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Patterns",
+    "question": "What is the Repository pattern?",
+    "options": [
+      "A version control strategy for managing multiple branches of application source code.",
+      "A design pattern that abstracts the data persistence layer, providing a collection-like interface for accessing domain objects and decoupling business logic from data access technology.",
+      "A caching pattern that stores frequently accessed data in a fast in-memory repository.",
+      "A configuration management pattern that stores all application settings in a central repository."
+    ],
+    "answer": "b",
+    "explanation": "The Repository pattern mediates between the domain and data mapping layers. It exposes methods like findById(), save(), and delete() to the domain layer, hiding all ORM, SQL, or HTTP API details. This makes domain logic testable (mock repositories) and portable (swap SQL for MongoDB without touching domain code)."
+  },
+  {
+    "id": 70,
+    "section": "Section 2: Software Architecture",
+    "category": "Design Principles",
+    "question": "What is the difference between coupling and cohesion in software design?",
+    "options": [
+      "Coupling measures how fast modules communicate; cohesion measures how much data they share.",
+      "Coupling refers to the degree of interdependence between modules (low coupling is desirable); cohesion refers to how strongly related the responsibilities within a single module are (high cohesion is desirable).",
+      "Coupling is a metric for integration tests; cohesion is a metric for unit tests.",
+      "Coupling describes class inheritance depth; cohesion describes interface surface area."
+    ],
+    "answer": "b",
+    "explanation": "The goal is 'low coupling, high cohesion.' Low coupling means modules can change independently. High cohesion means a module's responsibilities are strongly related (a single clear purpose). A highly coupled, low-cohesion design is a 'Big Ball of Mud' — hard to test, change, and understand. These metrics guide decomposition decisions in both OOP and microservices."
+  },
+  {
+    "id": 71,
+    "section": "Section 2: Software Architecture",
+    "category": "Domain-Driven Design",
+    "question": "What is a Bounded Context in Domain-Driven Design?",
+    "options": [
+      "A hard limit on the number of entities allowed within a single aggregate root.",
+      "A logical boundary within which a particular domain model applies consistently, with its own ubiquitous language; different bounded contexts may model the same real-world concept differently.",
+      "A security perimeter that restricts which teams can access a particular microservice's data.",
+      "The maximum size limit of a database transaction before it must be split."
+    ],
+    "answer": "b",
+    "explanation": "A Bounded Context defines where a domain model is valid. For example, 'Customer' in the Sales context (name, credit limit) differs from 'Customer' in the Support context (ticket history, SLA). Bounded Contexts map closely to microservices — each service owns its model. Context maps document how different bounded contexts integrate."
+  },
+  {
+    "id": 72,
+    "section": "Section 2: Software Architecture",
+    "category": "Software Development Practices",
+    "question": "What is Test-Driven Development (TDD)?",
+    "options": [
+      "A QA process where dedicated testers write all tests after developers complete features.",
+      "A development practice where a failing test is written first, then the minimum code needed to pass the test is written, and finally the code is refactored — following the Red-Green-Refactor cycle.",
+      "A testing methodology that relies exclusively on automated end-to-end tests to validate software.",
+      "A project management practice where user acceptance testing drives the development roadmap."
+    ],
+    "answer": "b",
+    "explanation": "TDD follows Red-Green-Refactor: 1) Write a failing unit test (Red). 2) Write minimal production code to make it pass (Green). 3) Refactor both test and production code. TDD drives better design (forces testable, decoupled code), provides a regression safety net, and documents behavior through tests."
+  },
+  {
+    "id": 73,
+    "section": "Section 2: Software Architecture",
+    "category": "DevOps",
+    "question": "What is Continuous Integration / Continuous Delivery (CI/CD)?",
+    "options": [
+      "A project management approach where integration meetings happen continuously and delivery is tracked on dashboards.",
+      "CI is a practice where developers frequently merge code into a shared branch, with automated builds and tests running on each merge; CD extends CI by automatically deploying every passing build to staging or production.",
+      "A testing strategy where integration tests run continuously in a loop against the production environment.",
+      "A software licensing model for continuous software delivery via subscription."
+    ],
+    "answer": "b",
+    "explanation": "CI reduces integration problems by merging and testing code frequently (tools: Jenkins, GitHub Actions, GitLab CI). CD (Continuous Delivery) ensures every passing build can be released with one click; Continuous Deployment goes further by automatically deploying without human intervention. Together, CI/CD accelerates delivery and reduces release risk."
+  },
+  {
+    "id": 74,
+    "section": "Section 2: Software Architecture",
+    "category": "Microservices",
+    "question": "What is a Service Mesh and what problems does it solve?",
+    "options": [
+      "A network topology where every microservice directly connects to every other microservice.",
+      "A dedicated infrastructure layer that handles service-to-service communication, providing features like load balancing, mutual TLS, circuit breaking, retries, observability, and traffic management without changing application code.",
+      "A monitoring tool that visualizes the call graph between microservices in a dashboard.",
+      "A pattern for organizing microservices into hierarchical mesh groups for team ownership."
+    ],
+    "answer": "b",
+    "explanation": "A service mesh (Istio, Linkerd, Consul Connect) deploys a sidecar proxy (e.g., Envoy) alongside each service instance. The sidecar handles all network communication, providing mTLS encryption, retry logic, circuit breaking, and distributed tracing transparently. This offloads cross-cutting network concerns from application code."
+  },
+  {
+    "id": 75,
+    "section": "Section 2: Software Architecture",
+    "category": "Service-Oriented Architecture",
+    "question": "What is Service-Oriented Architecture (SOA) and how does it differ from microservices?",
+    "options": [
+      "SOA and microservices are identical; 'microservices' is just the modern marketing term for SOA.",
+      "SOA is an architectural style where software components (services) are reusable and communicate via an Enterprise Service Bus (ESB); microservices use lightweight protocols (HTTP/messaging), are smaller, and avoid a central bus, favoring decentralized communication.",
+      "SOA is only applicable to legacy systems; microservices are for greenfield cloud-native projects.",
+      "SOA uses REST APIs exclusively; microservices use only event-driven messaging."
+    ],
+    "answer": "b",
+    "explanation": "SOA emerged in the 2000s, often using SOAP/WSDL services orchestrated through a central ESB, which became a bottleneck. Microservices evolved from SOA principles but emphasize smaller, more granular services, decentralized data management (each service owns its DB), lightweight communication, and independent deployment — removing the heavy ESB in favor of smart endpoints and dumb pipes."
+  }
+]

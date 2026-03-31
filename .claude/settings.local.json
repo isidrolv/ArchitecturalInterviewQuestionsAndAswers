@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; data=json.load\\(open\\(''e:/PROJECTS-N-WORK/ArchitecturalInterviewQuestionsAndAswers/quiz.json'', encoding=''utf-8''\\)\\); print\\(f''Total: {len\\(data\\)}''\\); cats={}; [cats.update\\({q.get\\(\"\"section\"\",\"\"?\"\"\\):cats.get\\(q.get\\(\"\"section\"\",\"\"?\"\"\\),0\\)+1}\\) for q in data]; [print\\(k,v\\) for k,v in cats.items\\(\\)]\")",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
