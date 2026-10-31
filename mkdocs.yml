@@ -1,0 +1,28 @@
+site_name: Programa de Estudio de Arquitectura
+hooks:
+  - mkdocs_hooks.py
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Usar modo oscuro
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Usar modo claro
+
+nav:
+  - Inicio: PROGRAMA_DE_ESTUDIO.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/name:markdown.extensions.toc.slugify_unicode
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
