@@ -1,0 +1,106 @@
+@startuml Diagrama de Datos - Polizas de Inventario
+
+title Diagrama de Datos (Modelo Entidad-Relación)\nSolución de Pólizas de Inventario
+
+skinparam linetype ortho
+
+entity "TipoPoliza" as TipoPoliza {
+  *id_tipo_poliza : INT <<PK>>
+  --
+  nombre : VARCHAR(30)
+  tipo_movimiento : VARCHAR(10)  ' Entrada / Salida
+  genera_cargo : BOOLEAN
+}
+
+entity "Poliza" as Poliza {
+  *id_poliza : BIGINT <<PK>>
+  --
+  folio : VARCHAR(20)
+  id_tipo_poliza : INT <<FK>>
+  id_empleado : INT <<FK>>
+  id_centro : INT <<FK>>
+  fecha_creacion : DATETIME
+  fecha_actualizacion : DATETIME
+  estatus : VARCHAR(15)  ' Activa / Eliminada
+  observaciones : VARCHAR(255)
+}
+
+entity "PolizaDetalle" as PolizaDetalle {
+  *id_detalle : BIGINT <<PK>>
+  --
+  id_poliza : BIGINT <<FK>>
+  id_articulo : INT <<FK>>
+  cantidad : DECIMAL(10,2)
+  costo_unitario : DECIMAL(10,2)
+  importe_total : DECIMAL(12,2)
+}
+
+entity "MovimientoInventario" as Movimiento {
+  *id_movimiento : BIGINT <<PK>>
+  --
+  id_poliza : BIGINT <<FK>>
+  id_articulo : INT <<FK>>
+  id_centro : INT <<FK>>
+  tipo_movimiento : VARCHAR(10)  ' Entrada / Salida
+  cantidad : DECIMAL(10,2)
+  fecha_movimiento : DATETIME
+}
+
+entity "Inventario" as Inventario {
+  *id_centro : INT <<FK>>
+  *id_articulo : INT <<FK>>
+  --
+  stock_actual : DECIMAL(10,2)
+  fecha_ultima_actualizacion : DATETIME
+}
+
+entity "CargoEmpleado" as Cargo {
+  *id_cargo : BIGINT <<PK>>
+  --
+  id_poliza : BIGINT <<FK>>
+  id_empleado : INT <<FK>>
+  id_centro : INT <<FK>>
+  importe : DECIMAL(12,2)
+  estatus_pago : VARCHAR(15)  ' Pendiente / Pagado / Cancelado
+  fecha_registro : DATETIME
+}
+
+entity "Articulo" as Articulo {
+  *id_articulo : INT <<PK>>
+  --
+  sku : VARCHAR(30)
+  descripcion : VARCHAR(120)
+  costo_unitario : DECIMAL(10,2)
+}
+
+entity "Empleado" as Empleado {
+  *id_empleado : INT <<PK>>
+  --
+  nombre : VARCHAR(120)
+  id_centro : INT <<FK>>
+  activo : BOOLEAN
+}
+
+entity "Centro" as Centro {
+  *id_centro : INT <<PK>>
+  --
+  nombre : VARCHAR(120)
+  ubicacion : VARCHAR(200)
+}
+
+TipoPoliza ||--o{ Poliza : clasifica
+Poliza ||--o{ PolizaDetalle : contiene
+Poliza ||--o{ Movimiento : genera
+Poliza ||--o| Cargo : "puede generar"
+Empleado ||--o{ Poliza : "es responsable de"
+Centro ||--o{ Poliza : "pertenece a"
+Articulo ||--o{ PolizaDetalle : referencia
+Articulo ||--o{ Movimiento : referencia
+Articulo ||--o{ Inventario : "tiene stock"
+Centro ||--o{ Inventario : "tiene stock"
+Centro ||--o{ Movimiento : "registra en"
+Empleado ||--o{ Cargo : "recibe"
+Centro ||--o{ Cargo : "corresponsable"
+Centro ||--o{ Empleado : "asignado a"
+
+@enduml

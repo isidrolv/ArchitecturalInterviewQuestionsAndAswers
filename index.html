@@ -275,7 +275,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#indice" class="md-nav__link">
+  <a href="#índice" class="md-nav__link">
     <span class="md-ellipsis">
       
         Índice
@@ -286,7 +286,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#basico-fundamentos-de-arquitectura-de-software" class="md-nav__link">
+  <a href="#básico-fundamentos-de-arquitectura-de-software" class="md-nav__link">
     <span class="md-ellipsis">
       
         Básico: Fundamentos de Arquitectura de Software
@@ -297,7 +297,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#intermedio-estilos-y-patrones-arquitectonicos" class="md-nav__link">
+  <a href="#intermedio-estilos-y-patrones-arquitectónicos" class="md-nav__link">
     <span class="md-ellipsis">
       
         Intermedio: Estilos y Patrones Arquitectónicos
@@ -319,10 +319,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-practicar" class="md-nav__link">
+  <a href="#cómo-practicar" class="md-nav__link">
     <span class="md-ellipsis">
       
         Cómo practicar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consultar-como-sitio-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consultar como sitio web
       
     </span>
   </a>
@@ -349,13 +360,13 @@
 <h1 id="architectural-interview-questions-and-answers">Architectural Interview Questions and Answers<a class="headerlink" href="#architectural-interview-questions-and-answers" title="Permanent link">&para;</a></h1>
 <p>Este documento contiene un banco de <strong>60 preguntas de opción múltiple</strong> sobre arquitectura de software, organizadas en niveles <strong>Básico</strong>, <strong>Intermedio</strong> y <strong>Avanzado</strong>, pensado para la preparación de entrevistas técnicas de Arquitecto de Software / Ingeniero Senior.</p>
 <p>Cada pregunta incluye 4 opciones de respuesta, la respuesta correcta y una explicación detallada del concepto evaluado. Las respuestas correctas están distribuidas equitativamente entre las opciones <code>a</code>, <code>b</code>, <code>c</code> y <code>d</code> (15 cada una) para evitar patrones predecibles.</p>
-<h2 id="indice">Índice<a class="headerlink" href="#indice" title="Permanent link">&para;</a></h2>
+<h2 id="índice">Índice<a class="headerlink" href="#índice" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="#básico-fundamentos-de-arquitectura-de-software">Básico: Fundamentos de Arquitectura de Software</a> (preguntas 1-20)</li>
 <li><a href="#intermedio-estilos-y-patrones-arquitectónicos">Intermedio: Estilos y Patrones Arquitectónicos</a> (preguntas 21-40)</li>
 <li><a href="#avanzado-arquitectura-avanzada-y-sistemas-distribuidos">Avanzado: Arquitectura Avanzada y Sistemas Distribuidos</a> (preguntas 41-60)</li>
 </ul>
-<h2 id="basico-fundamentos-de-arquitectura-de-software">Básico: Fundamentos de Arquitectura de Software<a class="headerlink" href="#basico-fundamentos-de-arquitectura-de-software" title="Permanent link">&para;</a></h2>
+<h2 id="básico-fundamentos-de-arquitectura-de-software">Básico: Fundamentos de Arquitectura de Software<a class="headerlink" href="#básico-fundamentos-de-arquitectura-de-software" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p>¿Qué es la arquitectura de software?</p>
@@ -578,7 +589,7 @@
 </ul>
 </li>
 </ol>
-<h2 id="intermedio-estilos-y-patrones-arquitectonicos">Intermedio: Estilos y Patrones Arquitectónicos<a class="headerlink" href="#intermedio-estilos-y-patrones-arquitectonicos" title="Permanent link">&para;</a></h2>
+<h2 id="intermedio-estilos-y-patrones-arquitectónicos">Intermedio: Estilos y Patrones Arquitectónicos<a class="headerlink" href="#intermedio-estilos-y-patrones-arquitectónicos" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p>¿Qué caracteriza a la arquitectura orientada a eventos (Event-Driven Architecture, EDA)?</p>
@@ -1024,13 +1035,25 @@
 </ul>
 </li>
 </ol>
-<h2 id="como-practicar">Cómo practicar<a class="headerlink" href="#como-practicar" title="Permanent link">&para;</a></h2>
+<h2 id="cómo-practicar">Cómo practicar<a class="headerlink" href="#cómo-practicar" title="Permanent link">&para;</a></h2>
 <p>Este repositorio incluye una app de autoevaluación (<code>self-test-app/</code>) con dos simuladores de examen basados en <code>architectural-interview-questions.json</code>:</p>
 <ul>
 <li><code>self-test-app/architecture_quiz_console.py</code> — quiz interactivo por terminal, con gráfico de resultados al finalizar.</li>
 <li><code>self-test-app/architecture_quiz_gui.py</code> — quiz con interfaz gráfica (tkinter): quiz completo, quiz rápido, quiz personalizado, filtrado por categoría y modo estudio.</li>
 </ul>
 <p>Consulta <code>self-test-app/README.md</code> para instrucciones de instalación y ejecución.</p>
+<h2 id="consultar-como-sitio-web">Consultar como sitio web<a class="headerlink" href="#consultar-como-sitio-web" title="Permanent link">&para;</a></h2>
+<p>Desde la raíz del repositorio:</p>
+<div class="highlight"><pre><span></span><code><span class="n">python</span> <span class="n">-m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">mkdocs-material</span>
+<span class="n">python</span> <span class="n">-m</span> <span class="n">mkdocs</span> <span class="n">serve</span>
+</code></pre></div>
+<p>Abre <a href="http://127.0.0.1:8000">http://127.0.0.1:8000</a>. Para comprobar los enlaces y generar el sitio:</p>
+<div class="highlight"><pre><span></span><code><span class="n">python</span> <span class="n">-m</span> <span class="n">mkdocs</span> <span class="n">build</span> <span class="p">-</span><span class="n">-strict</span>
+</code></pre></div>
+<p>La configuración de MkDocs utiliza <code>mkdocs_hooks.py</code> para incluir los diagramas y
+los recursos de autoevaluación desde sus carpetas originales, sin duplicarlos en
+<code>docs/</code> ni depender de enlaces de directorio locales. Las anclas conservan los
+acentos para que los enlaces del índice funcionen también en el sitio.</p>
 
 
 

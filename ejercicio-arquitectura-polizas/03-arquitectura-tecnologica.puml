@@ -1,0 +1,78 @@
+@startuml Diagrama de Arquitectura Tecnológica - Polizas de Inventario
+
+title Diagrama de Arquitectura Tecnológica (Deployment)\nSolución de Pólizas de Inventario (Tienda) - Despliegue Centralizado
+
+skinparam wrapWidth 220
+skinparam defaultTextAlignment center
+skinparam node {
+  BackgroundColor White
+  BorderColor Black
+}
+
+actor "Empleado de Tienda\n(Navegador Web)" as Client
+
+node "Balanceador de Carga\n(NGINX / HAProxy)\n2 vCPU | 4 GB RAM | 40 GB SSD" as LB
+
+node "Clúster de Servidores Web\n(Front-End Estático - SPA)" as WebCluster {
+  node "Servidor Web 1" as Web1 {
+    artifact "NGINX 1.25\nSPA (React/Angular build)" as WebArt1
+  }
+  node "Servidor Web 2" as Web2 {
+    artifact "NGINX 1.25\nSPA (React/Angular build)" as WebArt2
+  }
+}
+note bottom of WebCluster
+  Specs por nodo:
+  4 vCPU | 8 GB RAM | 80 GB SSD
+  SO: Linux (Ubuntu 22.04 LTS)
+end note
+
+node "Clúster de Servidores de Aplicación\n(API Back-End)" as AppCluster {
+  node "App Server 1" as App1 {
+    artifact ".NET 8 / Node.js 20\nPolizaService, InventoryService,\nEmployeeChargeService, API Gateway" as AppArt1
+  }
+  node "App Server 2" as App2 {
+    artifact ".NET 8 / Node.js 20\nPolizaService, InventoryService,\nEmployeeChargeService, API Gateway" as AppArt2
+  }
+}
+note bottom of AppCluster
+  Specs por nodo:
+  8 vCPU | 16 GB RAM | 150 GB SSD
+  SO: Linux (Ubuntu 22.04 LTS) o Windows Server 2022
+  Contenedores orquestados con Kubernetes / Docker Swarm
+end note
+
+node "Servidor de Caché\n(Redis)\n4 vCPU | 8 GB RAM | 20 GB SSD" as Cache
+
+node "Clúster de Base de Datos\n(Alta disponibilidad - Always On / Streaming Replication)" as DbCluster {
+  node "Nodo Primario (Escritura)" as DbPrimary {
+    database "PostgreSQL 16 / SQL Server 2022\nBD Pólizas / Inventario" as DBP
+  }
+  node "Nodo Réplica (Lectura)" as DbReplica {
+    database "Réplica de solo lectura" as DBR
+  }
+}
+note bottom of DbCluster
+  Specs por nodo:
+  16 vCPU | 64 GB RAM
+  RAID 10 NVMe SSD (alto IOPS)
+  Soporta alta carga transaccional (OLTP)
+  Backups incrementales cada 15 min + full diario
+end note
+
+node "Almacenamiento de Respaldos\n(NAS / Object Storage)\n10 TB" as Backup
+
+Client --> LB : HTTPS 443
+LB --> Web1
+LB --> Web2
+Web1 --> App1 : REST/HTTPS
+Web2 --> App2 : REST/HTTPS
+App1 --> Cache : TCP 6379
+App2 --> Cache : TCP 6379
+App1 --> DbPrimary : TCP 5432/1433 (lectura/escritura)
+App2 --> DbPrimary : TCP 5432/1433 (lectura/escritura)
+App1 --> DbReplica : TCP 5432/1433 (solo lectura - reportes)
+DbPrimary --> DbReplica : Replicación síncrona/asíncrona
+DbPrimary --> Backup : Respaldo programado
+
+@enduml

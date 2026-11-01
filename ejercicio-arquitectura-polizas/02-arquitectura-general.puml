@@ -1,0 +1,52 @@
+@startuml Diagrama de Arquitectura General - Polizas de Inventario
+
+title Diagrama de Arquitectura General\nSolución de Pólizas de Inventario (Tienda)
+
+skinparam componentStyle rectangle
+skinparam wrapWidth 200
+skinparam defaultTextAlignment center
+
+actor "Empleado de Tienda" as User
+
+package "Front-End" {
+  [Portal Web de Tienda] as WebApp
+  [Módulo de Pólizas\n(Alta / Edición / Baja / Consulta)] as PolizaUI
+}
+
+package "Back-End" {
+  [API Gateway] as Gateway
+  [Poliza Service] as PolizaSvc
+  [Inventory Service] as InvSvc
+  [Employee Charge Service] as ChargeSvc
+  [Employee / Center Service] as EmpSvc
+  [Servicio de Auditoría] as AuditSvc
+}
+
+package "Base de Datos" {
+  database "Base de Datos Transaccional\n(Pólizas / Inventario / Empleados)" as DB {
+    [Poliza]
+    [PolizaDetalle]
+    [MovimientoInventario]
+    [CargoEmpleado]
+    [Inventario]
+  }
+}
+
+User --> WebApp : Usa
+WebApp --> PolizaUI : Navega al módulo
+
+PolizaUI --> Gateway : HTTPS / REST\n(crear, editar, eliminar, consultar póliza)
+
+Gateway --> PolizaSvc : Enruta solicitud
+
+PolizaSvc --> EmpSvc : Valida empleado / centro
+PolizaSvc --> InvSvc : Solicita afectación\nde inventario (Entrada/Salida)
+PolizaSvc --> ChargeSvc : Solicita registro de cargo\n(si aplica: faltante/dañado/incompleto)
+PolizaSvc --> AuditSvc : Registra evento de auditoría
+
+InvSvc --> DB : Lee/Actualiza\nInventario y MovimientoInventario
+ChargeSvc --> DB : Escribe CargoEmpleado
+PolizaSvc --> DB : Lee/Escribe\nPoliza y PolizaDetalle
+EmpSvc --> DB : Lee Empleado / Centro (referencia)
+
+@enduml

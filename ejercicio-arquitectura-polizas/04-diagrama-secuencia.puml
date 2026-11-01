@@ -1,0 +1,126 @@
+@startuml Diagrama de Secuencia - Generar Poliza
+
+title Diagrama de Secuencia — Generación de Póliza de Inventario
+
+actor "Empleado de Tienda" as User
+participant "Módulo de Pólizas\n(Front-End)" as UI
+participant "API Gateway" as GW
+participant "PolizaService" as PS
+participant "EmployeeService" as ES
+participant "InventoryService" as IS
+participant "EmployeeChargeService" as CS
+database "Base de Datos" as DB
+
+User -> UI : Captura póliza\n(tipo, artículos, cantidades, empleado, centro)
+activate UI
+
+UI -> GW : POST /polizas
+activate GW
+
+GW -> PS : crearPoliza(datosPoliza)
+activate PS
+
+PS -> ES : validarEmpleadoCentro(idEmpleado, idCentro)
+activate ES
+ES -> DB : SELECT Empleado, Centro
+DB --> ES : datos válidos
+ES --> PS : OK
+deactivate ES
+
+PS -> PS : validar reglas de negocio\n(existencia de artículos, stock si es salida)
+
+PS -> IS : afectarInventario(tipoPoliza, detalleArticulos, idCentro)
+activate IS
+IS -> DB : INSERT MovimientoInventario\nUPDATE Inventario (stock)
+DB --> IS : confirmación
+IS --> PS : inventario actualizado
+deactivate IS
+
+alt Tipo de póliza genera cargo\n(Faltante / Dañado / Incompleto)
+  PS -> CS : registrarCargo(idEmpleado, idCentro, importeTotal)
+  activate CS
+  CS -> DB : INSERT CargoEmpleado
+  DB --> CS : confirmación
+  CS --> PS : cargo registrado
+  deactivate CS
+else Tipo de póliza = Sobrante
+  PS -> PS : no se genera cargo
+end
+
+PS -> DB : INSERT Poliza, PolizaDetalle
+DB --> PS : confirmación (transacción)
+
+PS --> GW : PolizaCreada (folio, estatus)
+deactivate PS
+GW --> UI : 201 Created (folio)
+deactivate GW
+UI --> User : Muestra confirmación\ny folio de póliza
+deactivate UI
+
+@enduml
+
+@startuml Diagrama de Secuencia - Actualizar o Eliminar Poliza
+
+title Diagrama de Secuencia — Actualización / Eliminación de Póliza
+
+actor "Empleado de Tienda" as User
+participant "Módulo de Pólizas\n(Front-End)" as UI
+participant "API Gateway" as GW
+participant "PolizaService" as PS
+participant "InventoryService" as IS
+participant "EmployeeChargeService" as CS
+database "Base de Datos" as DB
+
+User -> UI : Selecciona póliza y elige\nActualizar o Eliminar
+activate UI
+
+alt Actualizar Póliza
+  UI -> GW : PUT /polizas/{id}
+  activate GW
+  GW -> PS : actualizarPoliza(id, nuevosDatos)
+  activate PS
+  PS -> DB : SELECT Poliza actual
+  DB --> PS : datos actuales
+  PS -> IS : revertirMovimiento(idPolizaOriginal)
+  activate IS
+  IS -> DB : UPDATE Inventario (revierte movimiento previo)
+  deactivate IS
+  PS -> IS : aplicarMovimiento(nuevosDatos)
+  activate IS
+  IS -> DB : INSERT MovimientoInventario\nUPDATE Inventario
+  deactivate IS
+  PS -> CS : recalcularCargo(idEmpleado, nuevoImporte)
+  activate CS
+  CS -> DB : UPDATE CargoEmpleado
+  deactivate CS
+  PS -> DB : UPDATE Poliza, PolizaDetalle
+  DB --> PS : confirmación
+  PS --> GW : PolizaActualizada
+  GW --> UI : 200 OK
+  deactivate PS
+  deactivate GW
+else Eliminar Póliza
+  UI -> GW : DELETE /polizas/{id}
+  activate GW
+  GW -> PS : eliminarPoliza(id)
+  activate PS
+  PS -> IS : revertirMovimiento(id)
+  activate IS
+  IS -> DB : UPDATE Inventario (revierte movimiento)
+  deactivate IS
+  PS -> CS : cancelarCargo(id)
+  activate CS
+  CS -> DB : UPDATE CargoEmpleado (cancelado)
+  deactivate CS
+  PS -> DB : DELETE/estatus=Eliminada en Poliza
+  DB --> PS : confirmación
+  PS --> GW : PolizaEliminada
+  GW --> UI : 200 OK
+  deactivate PS
+  deactivate GW
+end
+
+UI --> User : Muestra resultado de la operación
+deactivate UI
+
+@enduml
